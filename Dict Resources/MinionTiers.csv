@@ -1,0 +1,697 @@
+Cobblestone,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Cobblestone,80,14s,1.2h
+II,20,Cobblestone,160,14s,2.5h
+III,40,Cobblestone,320,12s,3.4h
+IV,64,Cobblestone,512,12s,8.5h
+V,1,Enchanted Cobblestone,"1,280",10s,14.2h
+VI,2,Enchanted Cobblestone,"2,560",10s,28.4h
+VII,4,Enchanted Cobblestone,"5,120",9s,51.2h
+VIII,8,Enchanted Cobblestone,"10,240",9s,102.4h
+IX,16,Enchanted Cobblestone,"20,480",8s,182.0h
+X,32,Enchanted Cobblestone,"40,960",8s,364.1h
+XI,64,Enchanted Cobblestone,"81,920",7s,N/A
+,,,,,
+Obsidian,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Obsidian,80,45s,4.0h
+II,20,Obsidian,160,45s,8.0h
+III,40,Obsidian,320,42s,11.9h
+IV,64,Obsidian,512,42s,29.9h
+V,1,Enchanted Obsidian,"1,280",39s,55.5h
+VI,2,Enchanted Obsidian,"2,560",39s,110.9h
+VII,4,Enchanted Obsidian,"5,120",35s,199.1h
+VIII,8,Enchanted Obsidian,"10,240",35s,398.2h
+IX,16,Enchanted Obsidian,"20,480",30s,682.7h
+X,32,Enchanted Obsidian,"40,960",30s,"1,365.3h"
+XI,64,Enchanted Obsidian,"81,920",24s,N/A
+,,,,,
+Glowstone,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x3 Glowstone/Harvest)"
+I,16,Glowstone Dust,128,25s,1.2h
+II,32,Glowstone Dust,256,25s,2.4h
+III,64,Glowstone Dust,512,23s,5.5h
+IV,1,Enchanted Glowstone Dust,"1,280",23s,16.4h
+V,3,Enchanted Glowstone Dust,"3,840",21s,39.8h
+VI,8,Enchanted Glowstone Dust,"10,240",21s,79.6h
+VII,16,Enchanted Glowstone Dust,"20,480",19s,144.1h
+VIII,32,Enchanted Glowstone Dust,"40,960",19s,288.2h
+IX,64,Enchanted Glowstone Dust,"81,920",16s,728.2h
+X,1,Enchanted Glowstone,"245,760",16s,"1,456.4h"
+XI,2,Enchanted Glowstone,"491,520",13s,N/A
+,,,,,
+Gravel,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Gravel,80,26s,2.3h
+II,20,Gravel,160,26s,4.6h
+III,40,Gravel,320,24s,6.8h
+IV,64,Gravel,512,24s,17.1h
+V,1,Enchanted Flint,"1,280",22s,31.3h
+VI,2,Enchanted Flint,"2,560",22s,62.6h
+VII,4,Enchanted Flint,"5,120",19s,108.1h
+VIII,8,Enchanted Flint,"10,240",19s,216.2h
+IX,16,Enchanted Flint,"20,480",16s,364.1h
+X,32,Enchanted Flint,"40,960",16s,728.2h
+XI,64,Enchanted Flint,"81,920",13s,N/A
+,,,,,
+Sand,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Sand,80,26s,2.3h
+II,20,Sand,160,26s,4.6h
+III,40,Sand,320,24s,6.8h
+IV,64,Sand,512,24s,17.1h
+V,1,Enchanted Sand,"1,280",22s,31.3h
+VI,2,Enchanted Sand,"2,560",22s,62.6h
+VII,4,Enchanted Sand,"5,120",19s,108.1h
+VIII,8,Enchanted Sand,"10,240",19s,216.2h
+IX,16,Enchanted Sand,"20,480",16s,364.1h
+X,32,Enchanted Sand,"40,960",16s,728.2h
+XI,64,Enchanted Sand,"81,920",13s,N/A
+,,,,,
+Clay,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Clay/Harvest)"
+I,10,Clay,80,32s,0.7h
+II,20,Clay,160,32s,1.4h
+III,40,Clay,320,30s,2.1h
+IV,64,Clay,512,30s,5.3h
+V,1,Enchanted Clay,"1,280",27.5s,9.8h
+VI,2,Enchanted Clay,"2,560",27.5s,19.6h
+VII,4,Enchanted Clay,"5,120",24s,34.1h
+VIII,8,Enchanted Clay,"10,240",24s,68.3h
+IX,16,Enchanted Clay,"20,480",20s,113.8h
+X,32,Enchanted Clay,"40,960",20s,227.6h
+XI,64,Enchanted Clay,"81,920",16s,N/A
+,,,,,
+Ice,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Ice,80,14s,1.2h
+II,20,Ice,160,14s,2.5h
+III,40,Ice,320,12s,3.4h
+IV,64,Ice,512,12s,7.7h
+V,16,Packed Ice,"1,152",10s,12.8h
+VI,32,Packed Ice,"2,304",10s,25.6h
+VII,64,Packed Ice,"4,608",9s,51.2h
+VIII,8,Enchanted Ice,"10,240",9s,102.4h
+IX,16,Enchanted Ice,"20,480",8s,182.0h
+X,32,Enchanted Ice,"40,960",8s,364.1h
+XI,64,Enchanted Ice,"81,920",7s,N/A
+,,,,,
+Snow,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Snow/Harvest)"
+I,N/A,Snow Block,N/A,13s,0.2h
+II,4,Snow Block,128,13s,0.5h
+III,8,Snow Block,256,12s,0.9h
+IV,16,Snow Block,512,12s,1.7h
+V,32,Snow Block,"1,024",11s,3.1h
+VI,64,Snow Block,"2,048",11s,7.8h
+VII,1,Enchanted Snow Block,"5,120",9.5s,13.5h
+VIII,2,Enchanted Snow Block,"10,240",9.5s,27.0h
+IX,4,Enchanted Snow Block,"20,480",8s,45.5h
+X,8,Enchanted Snow Block,"40,960",8s,91.0h
+XI,16,Enchanted Snow Block,"81,920",6.5s,N/A
+,,,,,
+Coal,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Coal,80,15s,1.3h
+II,20,Coal,160,15s,2.7h
+III,40,Coal,320,13s,3.7h
+IV,64,Coal,512,13s,9.2h
+V,1,Enchanted Coal,"1,280",12s,25.6h
+VI,3,Enchanted Coal,"3,840",12s,68.3h
+VII,8,Enchanted Coal,"10,240",10s,113.8h
+VIII,16,Enchanted Coal,"20,480",10s,227.6h
+IX,32,Enchanted Coal,"40,960",9s,409.6h
+X,64,Enchanted Coal,"81,920",9s,"1,024.0h"
+XI,1,Enchanted Coal Block,"204,800",7s,N/A
+,,,,,
+Iron,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Iron,80,17s,1.5h
+II,20,Iron,160,17s,3.0h
+III,40,Iron,320,15s,4.3h
+IV,64,Iron,512,15s,10.7h
+V,1,Enchanted Iron,"1,280",14s,29.9h
+VI,3,Enchanted Iron,"3,840",14s,79.6h
+VII,8,Enchanted Iron,"10,240",12s,136.5h
+VIII,16,Enchanted Iron,"20,480",12s,273.1h
+IX,32,Enchanted Iron,"40,960",10s,455.1h
+X,64,Enchanted Iron,"81,920",10s,"1,137.8h"
+XI,1,Enchanted Iron Block,"204,800",8s,N/A
+,,,,,
+Gold,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Gold,80,22s,2.0h
+II,20,Gold,160,22s,3.9h
+III,40,Gold,320,20s,5.7h
+IV,64,Gold,512,20s,14.2h
+V,1,Enchanted Gold,"1,280",18s,38.4h
+VI,3,Enchanted Gold,"3,840",18s,102.4h
+VII,8,Enchanted Gold,"10,240",16s,182.0h
+VIII,16,Enchanted Gold,"20,480",16s,364.1h
+IX,32,Enchanted Gold,"40,960",14s,637.2h
+X,64,Enchanted Gold,"81,920",14s,"1,592.9h"
+XI,1,Enchanted Gold Block,"204,800",11s,N/A
+,,,,,
+Diamond,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Diamond,80,29s,2.6h
+II,20,Diamond,160,29s,5.2h
+III,40,Diamond,320,27s,7.7h
+IV,64,Diamond,512,27s,19.2h
+V,1,Enchanted Diamond,"1,280",25s,53.3h
+VI,3,Enchanted Diamond,"3,840",25s,142.2h
+VII,8,Enchanted Diamond,"10,240",22s,250.3h
+VIII,16,Enchanted Diamond,"20,480",22s,500.6h
+IX,32,Enchanted Diamond,"40,960",19s,864.7h
+X,64,Enchanted Diamond,"81,920",19s,"2,161.8h"
+XI,1,Enchanted Diamond Block,"204,800",15s,N/A
+,,,,,
+Lapis,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x6 Lapis/Harvest)"
+I,32,Lapis,256,29s,1.4h
+II,64,Lapis,512,29s,3.4h
+III,1,Enchanted Lapis,"1,280",27s,9.6h
+IV,3,Enchanted Lapis,"3,840",27s,25.6h
+V,8,Enchanted Lapis,"10,240",25s,47.4h
+VI,16,Enchanted Lapis,"20,480",25s,94.8h
+VII,32,Enchanted Lapis,"40,960",23s,174.5h
+VIII,64,Enchanted Lapis,"81,920",23s,436.1h
+IX,1,Enchanted Lapis Block,"204,800",21s,796.4h
+X,2,Enchanted Lapis Block,"409,600",21s,"1,592.9h"
+XI,4,Enchanted Lapis Block,"819,200",18s,N/A
+,,,,,
+Redstone,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4.5 Redstone/Harvest)"
+I,16,Redstone,128,29s,0.9h
+II,32,Redstone,256,29s,1.8h
+III,64,Redstone,512,27s,4.3h
+IV,1,Enchanted Redstone,"1,280",27s,12.8h
+V,3,Enchanted Redstone,"3,840",25s,31.6h
+VI,8,Enchanted Redstone,"10,240",25s,63.2h
+VII,16,Enchanted Redstone,"20,480",23s,116.3h
+VIII,32,Enchanted Redstone,"40,960",23s,232.6h
+IX,64,Enchanted Redstone,"81,920",21s,531.0h
+X,1,Enchanted Redstone Block,"204,800",21s,"1,061.9h"
+XI,2,Enchanted Redstone Block,"409,600",18s,N/A
+,,,,,
+Emerald,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Emerald,80,28s,2.5h
+II,20,Emerald,160,28s,5.0h
+III,40,Emerald,320,26s,7.4h
+IV,64,Emerald,512,26s,9.0h
+V,1,Enchanted Emerald,"1,280",24s,51.2h
+VI,3,Enchanted Emerald,"3,840",24s,136.5h
+VII,8,Enchanted Emerald,"10,240",21s,238.9h
+VIII,16,Enchanted Emerald,"20,480",21s,477.9h
+IX,32,Enchanted Emerald,"40,960",18s,819.2h
+X,64,Enchanted Emerald,"81,920",18s,"2,048.0h"
+XI,1,Enchanted Emerald Block,"204,800",14s,N/A
+,,,,,
+Quartz,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Quartz,80,22.5s,2.0h
+II,20,Quartz,160,22.5s,4.0h
+III,40,Quartz,320,21s,6.0h
+IV,64,Quartz,512,21s,14.9h
+V,1,Enchanted Quartz,"1,280",19s,40.5h
+VI,3,Enchanted Quartz,"3,840",19s,108.1h
+VII,8,Enchanted Quartz,"10,240",17s,193.4h
+VIII,16,Enchanted Quartz,"20,480",17s,386.8h
+IX,32,Enchanted Quartz,"40,960",14.5s,659.9h
+X,64,Enchanted Quartz,"81,920",14.5s,"1,649.8h"
+XI,1,Enchanted Quartz Block,"204,800",11.5s,N/A
+,,,,,
+End Stone,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,End Stone,80,26s,2.3h
+II,20,End Stone,160,26s,4.6h
+III,40,End Stone,320,24s,6.8h
+IV,64,End Stone,512,24s,17.1h
+V,1,Enchanted End Stone,"1,280",22s,31.3h
+VI,2,Enchanted End Stone,"2,560",22s,62.6h
+VII,4,Enchanted End Stone,"5,120",19s,108.1h
+VIII,8,Enchanted End Stone,"10,240",19s,216.2h
+IX,16,Enchanted End Stone,"20,480",16s,364.1h
+X,32,Enchanted End Stone,"40,960",16s,728.2h
+XI,64,Enchanted End Stone,"81,920",13s,N/A
+,,,,,
+Wheat,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Wheat,80,15s,1.3h
+II,20,Wheat,160,15s,2.7h
+III,40,Wheat,320,13s,3.7h
+IV,64,Wheat,512,13s,6.2h
+V,12,Hay Bale,864,11s,10.6h
+VI,24,Hay Bale,"1,728",11s,21.1h
+VII,48,Hay Bale,"3,456",10s,25.6h
+VIII,64,Hay Bale,"4,608",10s,57.6h
+IX,1,Enchanted Hay Bale,"10,368",9s,103.7h
+X,2,Enchanted Hay Bale,"20,736",9s,207.4h
+XI,4,Enchanted Hay Bale,"41,472",8s,N/A
+,,,,,
+Melon,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x6 M. Slices/Harvest)"
+I,32,Melon Slice,256,24s,1.1h
+II,64,Melon Slice,512,24s,2.6h
+III,16,Melon Block,"1,152",22.5s,4.8h
+IV,32,Melon Block,"2,304",22.5s,9.6h
+V,64,Melon Block,"4,608",21s,19.9h
+VI,8,Enchanted Melon Slice,"10,240",21s,39.8h
+VII,16,Enchanted Melon Slice,"20,480",18.5s,70.2h
+VIII,32,Enchanted Melon Slice,"40,960",18.5s,140.3h
+IX,64,Enchanted Melon Slice,"81,920",16s,303.4h
+X,1,Enchanted Melon Block,"204,800",16s,606.8h
+XI,2,Enchanted Melon Block,"409,600",13s,N/A
+,,,,,
+Pumpkin,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Pumpkin,80,32s,2.8h
+II,20,Pumpkin,160,32s,5.7h
+III,40,Pumpkin,320,30s,8.5h
+IV,64,Pumpkin,512,30s,21.3h
+V,1,Enchanted Pumpkin,"1,280",27s,38.4h
+VI,2,Enchanted Pumpkin,"2,560",27s,76.8h
+VII,4,Enchanted Pumpkin,"5,120",24s,136.5h
+VIII,8,Enchanted Pumpkin,"10,240",24s,273.1h
+IX,16,Enchanted Pumpkin,"20,480",20s,455.1h
+X,32,Enchanted Pumpkin,"40,960",20s,910.2h
+XI,64,Enchanted Pumpkin,"81,920",16s,N/A
+,,,,,
+Carrot,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x3 Carrot S./Harvest)"
+I,16,Carrot,128,20s,0.9h
+II,32,Carrot,256,20s,1.9h
+III,64,Carrot,512,18s,4.3h
+IV,1,Enchanted Carrot,"1,280",18s,12.8h
+V,3,Enchanted Carrot,"3,840",16s,30.3h
+VI,8,Enchanted Carrot,"10,240",16s,60.7h
+VII,16,Enchanted Carrot,"20,480",14s,106.2h
+VIII,32,Enchanted Carrot,"40,960",14s,212.4h
+IX,64,Enchanted Carrot,"81,920",12s,364.7h
+X,1,Enchanted Golden Carrot,"164,096",12s,729.3h
+XI,2,Enchanted Golden Carrot,"328,192",10s,N/A
+,,,,,
+Potato,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x3 Potato S./Harvest)"
+I,16,Potato,128,20s,0.9h
+II,32,Potato,256,20s,1.9h
+III,64,Potato,512,18s,4.3h
+IV,1,Enchanted Potato,"1,280",18s,12.8h
+V,3,Enchanted Potato,"3,840",16s,30.3h
+VI,8,Enchanted Potato,"10,240",16s,60.7h
+VII,16,Enchanted Potato,"20,480",14s,106.2h
+VIII,32,Enchanted Potato,"40,960",14s,212.4h
+IX,64,Enchanted Potato,"81,920",12s,455.1h
+X,1,Enchanted Baked Potato,"204,800",12s,910.2h
+XI,2,Enchanted Baked Potato,"409,600",10s,N/A
+,,,,,
+Mushroom,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Mushroom,80,30s,2.7h
+II,20,Mushroom,160,30s,5.3h
+III,40,Mushroom,320,28s,8.0h
+IV,64,Mushroom,512,28s,19.9h
+V,1,Enchanted Mushroom,"1,280",26s,37.0h
+VI,2,Enchanted Mushroom,"2,560",26s,74.0h
+VII,4,Enchanted Mushroom,"5,120",23s,130.8h
+VIII,8,Enchanted Mushroom,"10,240",23s,261.7h
+IX,16,Enchanted Mushroom,"20,480",20s,455.1h
+X,32,Enchanted Mushroom,"40,960",20s,910.2h
+XI,64,Enchanted Mushroom,"81,920",16s,N/A
+,,,,,
+Cactus,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,16,Cactus,128,27s,3.8h
+II,32,Cactus,256,27s,7.7h
+III,64,Cactus,512,25s,17.8h
+IV,1,Enchanted Cactus Green,"1,280",25s,53.3h
+V,3,Enchanted Cactus Green,"3,840",23s,130.8h
+VI,8,Enchanted Cactus Green,"10,240",23s,261.7h
+VII,16,Enchanted Cactus Green,"20,480",21s,477.9h
+VIII,32,Enchanted Cactus Green,"40,960",21s,955.7h
+IX,64,Enchanted Cactus Green,"81,920",18s,"2,048.0h"
+X,1,Enchanted Cactus,"204,800",18s,"4,096.0h"
+XI,2,Enchanted Cactus,"409,600",15s,N/A
+,,,,,
+Cocoa Beans,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x3 Cocoa Beans/Harvest)"
+I,10,Cocoa Beans,80,27s,0.8h
+II,20,Cocoa Beans,160,27s,1.6h
+III,40,Cocoa Beans,320,25s,2.4h
+IV,64,Cocoa Beans,512,25s,5.9h
+V,1,Enchanted Cocoa Beans,"1,280",23s,16.4h
+VI,3,Enchanted Cocoa Beans,"3,840",23s,43.6h
+VII,8,Enchanted Cocoa Beans,"10,240",21s,79.6h
+VIII,16,Enchanted Cocoa Beans,"20,480",21s,159.3h
+IX,32,Enchanted Cocoa Beans,"40,960",18s,273.1h
+X,64,Enchanted Cocoa Beans,"81,920",18s,546.1h
+XI,1,Enchanted Cookie,"163,840",15s,N/A
+,,,,,
+Sugar Cane,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x2 Sugar Cane/Harvest)"
+I,16,Sugar Cane,128,22s,1.6h
+II,32,Sugar Cane,256,22s,3.1h
+III,64,Sugar Cane,512,20s,7.1h
+IV,1,Enchanted Sugar,"1,280",20s,21.3h
+V,3,Enchanted Sugar,"3,840",18s,51.2h
+VI,8,Enchanted Sugar,"10,240",18s,102.4h
+VII,16,Enchanted Sugar,"20,480",16s,182.0h
+VIII,32,Enchanted Sugar,"40,960",16s,364.1h
+IX,64,Enchanted Sugar,"81,920",14.5s,824.9h
+X,1,Enchanted Sugar Cane,"204,800",14.5s,"1,649.8h"
+XI,2,Enchanted Sugar Cane,"409,600",12s,N/A
+,,,,,
+Nether Wart,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x3 Nether Wart/Harvest)"
+I,10,Nether Wart,80,50s,1.5h
+II,20,Nether Wart,160,50s,3.0h
+III,40,Nether Wart,320,47s,4.5h
+IV,64,Nether Wart,512,47s,11.1h
+V,1,Enchanted Nether Wart,"1,280",44s,20.9h
+VI,2,Enchanted Nether Wart,"2,560",44s,41.7h
+VII,4,Enchanted Nether Wart,"5,120",41s,77.7h
+VIII,8,Enchanted Nether Wart,"10,240",41s,155.5h
+IX,16,Enchanted Nether Wart,"20,480",38s,288.2h
+X,32,Enchanted Nether Wart,"40,960",38s,576.5h
+XI,64,Enchanted Nether Wart,"81,920",32s,N/A
+,,,,,
+Flower,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x0.33 Dandelion/Harvest)"
+I,N/A,Dandelion,N/A,30s,8.1h
+II,20,Dandelion,160,29s,15.6h
+III,40,Dandelion,320,28s,24.1h
+IV,64,Dandelion,512,27s,58.2h
+V,1,Enchanted Dandelion,"1,280",26s,168.1h
+VI,3,Enchanted Dandelion,"3,840",25s,431.0h
+VII,8,Enchanted Dandelion,"10,240",24s,827.5h
+VIII,16,Enchanted Dandelion,"20,480",23s,"1,586.0h"
+IX,32,Enchanted Dandelion,"40,960",22s,"3,034.1h"
+X,64,Enchanted Dandelion,"81,920",21s,81.5h
+XI,1,Enchanted Poppy,"4,608",20s,N/A
+,,,,,
+Fish,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x0.5 Raw Fish/Harvest)"
+I,8,Raw Fish,64,78s,5.5h
+II,16,Raw Fish,128,75s,10.7h
+III,32,Raw Fish,256,72s,20.5h
+IV,64,Raw Fish,512,72s,51.2h
+V,1,Enchanted Raw Fish,"1,280",68s,145.1h
+VI,3,Enchanted Raw Fish,"3,840",68s,386.8h
+VII,8,Enchanted Raw Fish,"10,240",62.5s,711.1h
+VIII,16,Enchanted Raw Fish,"20,480",62.5s,"1,422.2h"
+IX,32,Enchanted Raw Fish,"40,960",53s,"2,412.1h"
+X,64,Enchanted Raw Fish,"81,920",53s,"6,030.2h"
+XI,1,Enchanted Cooked Fish,"204,800",35s,N/A
+,,,,,
+Zombie,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Rotten Flesh,80,26s,2.3h
+II,20,Rotten Flesh,160,26s,4.6h
+III,40,Rotten Flesh,320,24s,6.8h
+IV,64,Rotten Flesh,512,24s,17.1h
+V,1,Enchanted Rotten Flesh,"1,280",22s,31.3h
+VI,2,Enchanted Rotten Flesh,"2,560",22s,62.6h
+VII,4,Enchanted Rotten Flesh,"5,120",20s,113.8h
+VIII,8,Enchanted Rotten Flesh,"10,240",20s,227.6h
+IX,16,Enchanted Rotten Flesh,"20,480",17s,386.8h
+X,32,Enchanted Rotten Flesh,"40,960",17s,773.7h
+XI,64,Enchanted Rotten Flesh,"81,920",13s,N/A
+,,,,,
+Revenant,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Revenant Flesh,70,29s,N/A
+II,20,Revenant Flesh,140,29s,N/A
+III,40,Revenant Flesh,280,26s,N/A
+IV,64,Revenant Flesh,448,26s,N/A
+V,1,Revenant Viscera,896,23s,N/A
+VI,2,Revenant Viscera,"1,792",23s,N/A
+VII,4,Revenant Viscera,"3,584",19s,N/A
+VIII,8,Revenant Viscera,"7,168",19s,N/A
+IX,16,Revenant Viscera,"14,336",14.5s,N/A
+X,32,Revenant Viscera,"28,672",14.5s,N/A
+XI,64,Revenant Viscera,"57,344",10s,N/A
+,,,,,
+Skeleton,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Bone,80,26s,2.3h
+II,20,Bone,160,26s,4.6h
+III,40,Bone,320,24s,6.8h
+IV,64,Bone,512,24s,17.1h
+V,1,Enchanted Bone,"1,280",22s,31.3h
+VI,2,Enchanted Bone,"2,560",22s,62.6h
+VII,4,Enchanted Bone,"5,120",20s,113.8h
+VIII,8,Enchanted Bone,"10,240",20s,227.6h
+IX,16,Enchanted Bone,"20,480",17s,386.8h
+X,32,Enchanted Bone,"40,960",17s,773.7h
+XI,64,Enchanted Bone,"81,920",13s,N/A
+,,,,,
+Creeper,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Gunpowder,80,27s,2.4h
+II,20,Gunpowder,160,27s,4.8h
+III,40,Gunpowder,320,25s,7.1h
+IV,64,Gunpowder,512,25s,17.8h
+V,1,Enchanted Gunpowder,"1,280",23s,49.1h
+VI,3,Enchanted Gunpowder,"3,840",23s,130.8h
+VII,8,Enchanted Gunpowder,"10,240",21s,238.9h
+VIII,16,Enchanted Gunpowder,"20,480",21s,477.9h
+IX,32,Enchanted Gunpowder,"40,960",18s,819.2h
+X,64,Enchanted Gunpowder,"81,920",18s,"1,638.4h"
+XI,2,Enchanted Firework Rocket,"163,840",14s,N/A
+,,,,,
+Spider,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,String,80,26s,2.3h
+II,20,String,160,26s,4.6h
+III,40,String,320,24s,6.8h
+IV,64,String,512,24s,20.5h
+V,1,Enchanted String,"1,536",22s,37.5h
+VI,2,Enchanted String,"3,072",22s,75.1h
+VII,4,Enchanted String,"6,144",20s,136.5h
+VIII,8,Enchanted String,"12,288",20s,273.1h
+IX,16,Enchanted String,"24,576",17s,464.2h
+X,32,Enchanted String,"49,152",17s,928.4h
+XI,64,Enchanted String,"98,304",13s,N/A
+,,,,,
+Tarantula,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Tarantula Web,70,29s,N/A
+II,20,Tarantula Web,140,29s,N/A
+III,40,Tarantula Web,280,26s,N/A
+IV,64,Tarantula Web,448,26s,N/A
+V,1,Tarantula Silk,896,23s,N/A
+VI,2,Tarantula Silk,"1,792",23s,N/A
+VII,4,Tarantula Silk,"3,584",19s,N/A
+VIII,8,Tarantula Silk,"7,168",19s,N/A
+IX,16,Tarantula Silk,"14,336",14.5s,N/A
+X,32,Tarantula Silk,"28,672",14.5s,N/A
+XI,64,Tarantula Silk,"57,344",10s,N/A
+,,,,,
+Cave Spider,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Spider Eye,80,26s,2.3h
+II,20,Spider Eye,160,26s,4.6h
+III,40,Spider Eye,320,24s,6.8h
+IV,64,Spider Eye,512,24s,17.1h
+V,1,Enchanted Spider Eye,"1,280",22s,46.9h
+VI,3,Enchanted Spider Eye,"3,840",22s,125.2h
+VII,8,Enchanted Spider Eye,"10,240",20s,227.6h
+VIII,16,Enchanted Spider Eye,"20,480",20s,455.1h
+IX,32,Enchanted Spider Eye,"40,960",17s,773.7h
+X,64,Enchanted Spider Eye,"81,920",17s,"1,547.4h"
+XI,2,Enchanted F. Spider Eye,"163,840",13s,N/A
+,,,,,
+Blaze,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,10,Blaze Rod,80,33s,2.9h
+II,20,Blaze Rod,160,33s,5.9h
+III,40,Blaze Rod,320,31s,8.8h
+IV,64,Blaze Rod,512,31s,22.0h
+V,1,Enchanted Blaze Powder,"1,280",28.5s,60.8h
+VI,3,Enchanted Blaze Powder,"3,840",28.5s,162.1h
+VII,8,Enchanted Blaze Powder,"10,240",25s,284.4h
+VIII,16,Enchanted Blaze Powder,"20,480",25s,568.9h
+IX,32,Enchanted Blaze Powder,"40,960",21s,955.7h
+X,64,Enchanted Blaze Powder,"81,920",21s,"2,389.3h"
+XI,1,Enchanted Blaze Rod,"204,800",16.5s,N/A
+,,,,,
+Magma Cube,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x1.8 Magma Cream/Harvest)"
+I,10,Magma Cream,80,32s,1.6h
+II,20,Magma Cream,160,32s,3.2h
+III,40,Magma Cream,320,30s,4.7h
+IV,64,Magma Cream,512,30s,11.9h
+V,1,Enchanted Magma Cream,"1,280",28s,22.1h
+VI,2,Enchanted Magma Cream,"2,560",28s,44.2h
+VII,4,Enchanted Magma Cream,"5,120",25s,79.0h
+VIII,8,Enchanted Magma Cream,"10,240",25s,158.0h
+IX,16,Enchanted Magma Cream,"20,480",22s,278.1h
+X,32,Enchanted Magma Cream,"40,960",22s,556.2h
+XI,64,Enchanted Magma Cream,"81,920",18s,N/A
+,,,,,
+Enderman,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Ender Pearl,64,32s,2.3h
+II,16,Ender Pearl,128,32s,2.8h
+III,1,Enchanted Ender Pearl,160,30s,8.0h
+IV,3,Enchanted Ender Pearl,480,30s,16.0h
+V,6,Enchanted Ender Pearl,960,28s,29.9h
+VI,12,Enchanted Ender Pearl,"1,920",28s,39.8h
+VII,1,Enchanted Eye of Ender,"2,560",25s,106.7h
+VIII,3,Enchanted Eye of Ender,"7,680",25s,213.3h
+IX,6,Enchanted Eye of Ender,"15,360",22s,375.5h
+X,12,Enchanted Eye of Ender,"30,720",22s,750.9h
+XI,24,Enchanted Eye of Ender,"61,440",18s,N/A
+,,,,,
+Ghast,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Ghast Tear,64,50s,3.6h
+II,16,Ghast Tear,128,50s,7.1h
+III,32,Ghast Tear,256,47s,13.4h
+IV,64,Ghast Tear,512,47s,33.4h
+V,32,Enchanted Ghast Tear,"1,280",44s,62.6h
+VI,64,Enchanted Ghast Tear,"2,560",44s,97.8h
+VII,4,Silver Fang,"4,000",41s,182.2h
+VIII,8,Silver Fang,"8,000",41s,364.4h
+IX,16,Silver Fang,"16,000",38s,675.6h
+X,32,Silver Fang,"32,000",38s,"1,351.1h"
+XI,64,Silver Fang,"64,000",32s,N/A
+,,,,,
+Slime,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x1.8 Slimeball/Harvest)"
+I,10,Slimeball,80,26s,1.3h
+II,20,Slimeball,160,26s,2.6h
+III,40,Slimeball,320,24s,3.8h
+IV,64,Slimeball,512,24s,9.5h
+V,1,Enchanted Slimeball,"1,280",22s,26.1h
+VI,3,Enchanted Slimeball,"3,840",22s,69.5h
+VII,8,Enchanted Slimeball,"10,240",19s,120.1h
+VIII,16,Enchanted Slimeball,"20,480",19s,240.2h
+IX,32,Enchanted Slimeball,"40,960",16s,404.5h
+X,64,Enchanted Slimeball,"81,920",16s,"1,011.4h"
+XI,1,Enchanted Slime Block,"204,800",12s,N/A
+,,,,,
+Cow,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Raw Beef,64,26s,1.8h
+II,16,Raw Beef,128,26s,3.7h
+III,32,Raw Beef,256,24s,6.8h
+IV,64,Raw Beef,512,24s,17.1h
+V,1,Enchanted Raw Beef,"1,280",22s,46.9h
+VI,3,Enchanted Raw Beef,"3,840",22s,125.2h
+VII,8,Enchanted Raw Beef,"10,240",20s,227.6h
+VIII,16,Enchanted Raw Beef,"20,480",20s,455.1h
+IX,32,Enchanted Raw Beef,"40,960",17s,773.7h
+X,64,Enchanted Raw Beef,"81,920",17s,"1,392.6h"
+XI,32,Enchanted Leather,"147,456",13s,N/A
+,,,,,
+Pig,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Raw Porkchop,64,26s,1.8h
+II,16,Raw Porkchop,128,26s,3.7h
+III,32,Raw Porkchop,256,24s,6.8h
+IV,64,Raw Porkchop,512,24s,17.1h
+V,1,Enchanted Raw Pork,"1,280",22s,46.9h
+VI,3,Enchanted Raw Pork,"3,840",22s,125.2h
+VII,8,Enchanted Raw Pork,"10,240",20s,227.6h
+VIII,16,Enchanted Raw Pork,"20,480",20s,455.1h
+IX,32,Enchanted Raw Pork,"40,960",17s,773.7h
+X,64,Enchanted Raw Pork,"81,920",17s,"1,934.2h"
+XI,1,Enchanted Grilled Pork,"204,800",13s,N/A
+,,,,,
+Chicken,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Raw Chicken,64,26s,1.8h
+II,16,Raw Chicken,128,26s,3.7h
+III,32,Raw Chicken,256,24s,6.8h
+IV,64,Raw Chicken,512,24s,17.1h
+V,1,Enchanted Raw Chicken,"1,280",22s,31.3h
+VI,2,Enchanted Raw Chicken,"2,560",22s,62.6h
+VII,4,Enchanted Raw Chicken,"5,120",20s,113.8h
+VIII,8,Enchanted Raw Chicken,"10,240",20s,227.6h
+IX,16,Enchanted Raw Chicken,"20,480",18s,409.6h
+X,32,Enchanted Raw Chicken,"40,960",18s,819.2h
+XI,64,Enchanted Raw Chicken,"81,920",15s,N/A
+,,,,,
+Sheep,Cost per slot,Internal Name,Total Tier Cost,Delay,ETA of Self-Upgrade
+I,8,Raw Mutton,64,24s,1.7h
+II,16,Raw Mutton,128,24s,3.4h
+III,32,Raw Mutton,256,22s,6.3h
+IV,64,Raw Mutton,512,22s,15.6h
+V,1,Enchanted Raw Mutton,"1,280",20s,42.7h
+VI,3,Enchanted Raw Mutton,"3,840",20s,113.8h
+VII,8,Enchanted Raw Mutton,"10,240",18s,204.8h
+VIII,16,Enchanted Raw Mutton,"20,480",18s,409.6h
+IX,32,Enchanted Raw Mutton,"40,960",16s,728.2h
+X,64,Enchanted Raw Mutton,"81,920",16s,"1,820.4h"
+XI,1,Enchanted Cooked Mutton,"204,800",12s,N/A
+,,,,,
+Rabbit,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x0.35 Foot&Hide/Harvest)"
+I,8,Raw Rabbit,64,26s,1.8h
+II,16,Raw Rabbit,128,26s,3.7h
+III,32,Raw Rabbit,256,24s,6.8h
+IV,64,Raw Rabbit,512,24s,195.0h
+V,4,Enchanted Rabbit's Foot,"5,120",22s,357.6h
+VI,8,Enchanted Rabbit's Foot,"10,240",22s,715.2h
+VII,16,Enchanted Rabbit's Foot,"20,480",20s,"1,300.3h"
+VIII,32,Enchanted Rabbit's Foot,"40,960",20s,"2,600.6h"
+IX,64,Enchanted Rabbit's Foot,"81,920",17s,"3,979.0h"
+X,32,Enchanted Rabbit Hide,"147,456",17s,"7,957.9h"
+XI,64,Enchanted Rabbit Hide,"294,912",13s,N/A
+,,,,,
+Oak,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Oak/Harvest)"
+I,10,Oak Wood,80,48s,1.1h
+II,20,Oak Wood,160,48s,2.1h
+III,40,Oak Wood,320,45s,3.2h
+IV,64,Oak Wood,512,45s,8.0h
+V,1,Enchanted Oak Wood,"1,280",42s,14.9h
+VI,2,Enchanted Oak Wood,"2,560",42s,29.9h
+VII,4,Enchanted Oak Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Oak Wood,"10,240",38s,108.1h
+IX,16,Enchanted Oak Wood,"20,480",33s,187.7h
+X,32,Enchanted Oak Wood,"40,960",33s,375.5h
+XI,64,Enchanted Oak Wood,"81,920",27s,N/A
+,,,,,
+Spruce,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Spruce/Harvest)"
+I,10,Spruce Wood,80,48s,1.1h
+II,20,Spruce Wood,160,48s,2.1h
+III,40,Spruce Wood,320,45s,3.2h
+IV,64,Spruce Wood,512,45s,8.0h
+V,1,Enchanted Spruce Wood,"1,280",42s,14.9h
+VI,2,Enchanted Spruce Wood,"2,560",42s,29.9h
+VII,4,Enchanted Spruce Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Spruce Wood,"10,240",38s,108.1h
+IX,16,Enchanted Spruce Wood,"20,480",33s,187.7h
+X,32,Enchanted Spruce Wood,"40,960",33s,375.5h
+XI,64,Enchanted Spruce Wood,"81,920",27s,N/A
+,,,,,
+Birch,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Birch/Harvest)"
+I,10,Birch Wood,80,48s,1.1h
+II,20,Birch Wood,160,48s,2.1h
+III,40,Birch Wood,320,45s,3.2h
+IV,64,Birch Wood,512,45s,8.0h
+V,1,Enchanted Birch Wood,"1,280",42s,14.9h
+VI,2,Enchanted Birch Wood,"2,560",42s,29.9h
+VII,4,Enchanted Birch Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Birch Wood,"10,240",38s,108.1h
+IX,16,Enchanted Birch Wood,"20,480",33s,187.7h
+X,32,Enchanted Birch Wood,"40,960",33s,375.5h
+XI,64,Enchanted Birch Wood,"81,920",27s,N/A
+,,,,,
+Dark Oak,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Dark Oak/Harvest)"
+I,10,Dark Oak Wood,80,48s,1.1h
+II,20,Dark Oak Wood,160,48s,2.1h
+III,40,Dark Oak Wood,320,45s,3.2h
+IV,64,Dark Oak Wood,512,45s,8.0h
+V,1,Enchanted Dark Oak Wood,"1,280",42s,14.9h
+VI,2,Enchanted Dark Oak Wood,"2,560",42s,29.9h
+VII,4,Enchanted Dark Oak Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Dark Oak Wood,"10,240",38s,108.1h
+IX,16,Enchanted Dark Oak Wood,"20,480",33s,187.7h
+X,32,Enchanted Dark Oak Wood,"40,960",33s,375.5h
+XI,64,Enchanted Dark Oak Wood,"81,920",27s,N/A
+,,,,,
+Acacia,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Acacia/Harvest)"
+I,10,Acacia Wood,80,48s,1.1h
+II,20,Acacia Wood,160,48s,2.1h
+III,40,Acacia Wood,320,45s,3.2h
+IV,64,Acacia Wood,512,45s,8.0h
+V,1,Enchanted Acacia Wood,"1,280",42s,14.9h
+VI,2,Enchanted Acacia Wood,"2,560",42s,29.9h
+VII,4,Enchanted Acacia Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Acacia Wood,"10,240",38s,108.1h
+IX,16,Enchanted Acacia Wood,"20,480",33s,187.7h
+X,32,Enchanted Acacia Wood,"40,960",33s,375.5h
+XI,64,Enchanted Acacia Wood,"81,920",27s,N/A
+,,,,,
+Jungle,Cost per slot,Internal Name,Total Tier Cost,Delay,"ETA of Self-Upgrade
+(@x4 Jungle/Harvest)"
+I,10,Jungle Wood,80,48s,1.1h
+II,20,Jungle Wood,160,48s,2.1h
+III,40,Jungle Wood,320,45s,3.2h
+IV,64,Jungle Wood,512,45s,8.0h
+V,1,Enchanted Jungle Wood,"1,280",42s,14.9h
+VI,2,Enchanted Jungle Wood,"2,560",42s,29.9h
+VII,4,Enchanted Jungle Wood,"5,120",38s,54.0h
+VIII,8,Enchanted Jungle Wood,"10,240",38s,108.1h
+IX,16,Enchanted Jungle Wood,"20,480",33s,187.7h
+X,32,Enchanted Jungle Wood,"40,960",33s,375.5h
+XI,64,Enchanted Jungle Wood,"81,920",27s,N/A

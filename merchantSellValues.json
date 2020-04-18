@@ -1,0 +1,242 @@
+{
+  "COBBLESTONE": {
+    "name": "Cobblestone",
+    "merchSellValue": 1.0
+  },
+  "OBSIDIAN": {
+    "name": "Obsidian",
+    "merchSellValue": 12.0
+  },
+  "GLOWSTONE_DUST": {
+    "name": "Glowstone Dust",
+    "merchSellValue": 2.0
+  },
+  "FLINT": {
+    "name": "Flint",
+    "merchSellValue": 4.0
+  },
+  "SAND": {
+    "name": "Sand",
+    "merchSellValue": 2.0
+  },
+  "CLAY_BALL": {
+    "name": "Clay",
+    "merchSellValue": 3.0
+  },
+  "ICE": {
+    "name": "Ice",
+    "merchSellValue": 0.5
+  },
+  "SNOW_BALL": {
+    "name": "Snow Ball",
+    "merchSellValue": 1.0
+  },
+  "COAL": {
+    "name": "Coal",
+    "merchSellValue": 2.0
+  },
+  "IRON_INGOT": {
+    "name": "Iron Ingot",
+    "merchSellValue": 3.0
+  },
+  "GOLD_INGOT": {
+    "name": "Gold Ingot",
+    "merchSellValue": 4.0
+  },
+  "DIAMOND": {
+    "name": "Diamond",
+    "merchSellValue": 8.0
+  },
+  "INK_SACK:4": {
+    "name": "Lapis",
+    "merchSellValue": 1.0
+  },
+  "REDSTONE": {
+    "name": "Redstone",
+    "merchSellValue": 1.0
+  },
+  "EMERALD": {
+    "name": "Emerald",
+    "merchSellValue": 6.0
+  },
+  "QUARTZ": {
+    "name": "Quartz",
+    "merchSellValue": 4.0
+  },
+  "ENDER_STONE": {
+    "name": "Endstone",
+    "merchSellValue": 2.0
+  },
+  "WHEAT": {
+    "name": "Wheat",
+    "merchSellValue": 1.0
+  },
+  "SEEDS": {
+    "name": "Seeds",
+    "merchSellValue": 0.5
+  },
+  "MELON": {
+    "name": "Melon",
+    "merchSellValue": 0.5
+  },
+  "PUMPKIN": {
+    "name": "Pumpkin",
+    "merchSellValue": 4.0
+  },
+  "CARROT_ITEM": {
+    "name": "Carrot",
+    "merchSellValue": 1.0
+  },
+  "POTATO_ITEM": {
+    "name": "Potato",
+    "merchSellValue": 1.0
+  },
+  "RED_MUSHROOM": {
+    "name": "Red Mushroom",
+    "merchSellValue": 4.0
+  },
+  "BROWN_MUSHROOM": {
+    "name": "Brown Mushroom",
+    "merchSellValue": 4.0
+  },
+  "INK_SACK:3": {
+    "name": "Cocoa Beans",
+    "merchSellValue": 3.0
+  },
+  "SUGAR_CANE": {
+    "name": "Sugar Cane",
+    "merchSellValue": 2.0
+  },
+  "NETHER_STALK": {
+    "name": "Nether Wart",
+    "merchSellValue": 3.0
+  },
+  "RAW_FISH": {
+    "name": "Raw Fish",
+    "merchSellValue": 6.0
+  },
+  "RAW_FISH:1": {
+    "name": "Raw Salmon",
+    "merchSellValue": 10.0
+  },
+  "SPONGE": {
+    "name": "Sponge",
+    "merchSellValue": 50.0
+  },
+  "RAW_FISH:2": {
+    "name": "Clownfish",
+    "merchSellValue": 20.0
+  },
+  "RAW_FISH:3": {
+    "name": "Pufferfish",
+    "merchSellValue": 15.0
+  },
+  "PRISMARINE_CRYSTALS": {
+    "name": "Prismarine Crystals",
+    "merchSellValue": 5.0
+  },
+  "PRISMARINE_SHARD": {
+    "name": "Prismarine Shard",
+    "merchSellValue": 5.0
+  },
+  "ROTTEN_FLESH": {
+    "name": "Rotten Flesh",
+    "merchSellValue": 2.0
+  },
+  "BONE": {
+    "name": "Bone",
+    "merchSellValue": 2.0
+  },
+  "SULPHUR": {
+    "name": "Gunpowder",
+    "merchSellValue": 4.0
+  },
+  "STRING": {
+    "name": "String",
+    "merchSellValue": 3.0
+  },
+  "SPIDER_EYE": {
+    "name": "Spider Eye",
+    "merchSellValue": 3.0
+  },
+  "BLAZE_ROD": {
+    "name": "Blaze Rod",
+    "merchSellValue": 9.0
+  },
+  "MAGMA_CREAM": {
+    "name": "Magma Cream",
+    "merchSellValue": 8.0
+  },
+  "ENDER_PEARL": {
+    "name": "Ender Pearl",
+    "merchSellValue": 10.0
+  },
+  "GHAST_TEAR": {
+    "name": "Ghast Tear",
+    "merchSellValue": 16.0
+  },
+  "SLIME_BALL": {
+    "name": "Slime Ball",
+    "merchSellValue": 5.0
+  },
+  "RAW_BEEF": {
+    "name": "Raw Beef",
+    "merchSellValue": 4.0
+  },
+  "LEATHER": {
+    "name": "Leather",
+    "merchSellValue": 3.0
+  },
+  "PORK": {
+    "name": "Raw Porkchop",
+    "merchSellValue": 5.0
+  },
+  "RAW_CHICKEN": {
+    "name": "Raw Chicken",
+    "merchSellValue": 4.0
+  },
+  "FEATHER": {
+    "name": "Feather",
+    "merchSellValue": 3.0
+  },
+  "MUTTON": {
+    "name": "Mutton",
+    "merchSellValue": 5.0
+  },
+  "RABBIT": {
+    "name": "Raw Rabbit",
+    "merchSellValue": 4.0
+  },
+  "RABBIT_FOOT": {
+    "name": "Rabbit's Foot",
+    "merchSellValue": 5.0
+  },
+  "RABBIT_HIDE": {
+    "name": "Rabbit Hide",
+    "merchSellValue": 5.0
+  },
+  "LOG": {
+    "name": "Oak Wood",
+    "merchSellValue": 2.0
+  },
+  "LOG:1": {
+    "name": "Spruce Wood",
+    "merchSellValue": 2.0
+  },
+  "LOG:2": {
+    "name": "Birch Wood",
+    "merchSellValue": 2.0
+  },
+  "LOG_2:1": {
+    "name": "Dark Oak Wood",
+    "merchSellValue": 2.0
+  },
+  "LOG_2": {
+    "name": "Acacia Wood",
+    "merchSellValue": 2.0
+  },
+  "LOG:3": {
+    "name": "Jungle Wood",
+    "merchSellValue": 2.0
+  }
+}

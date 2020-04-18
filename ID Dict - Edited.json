@@ -1,0 +1,1516 @@
+{
+  "Cobblestone": {
+    "minionData": {
+      "delays": [14.0, 14.0, 12.0, 12.0, 10.0, 10.0, 9.0, 9.0, 8.0, 8.0, 7.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Cobblestone",
+        "gameID": "COBBLESTONE",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Cobblestone",
+        "gameID": "ENCHANTED_COBBLESTONE",
+        "craft": {
+          "usedItemID": "COBBLESTONE",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Obsidian": {
+    "minionData": {
+      "delays": [45.0, 45.0, 42.0, 42.0, 39.0, 39.0, 35.0, 35.0, 30.0, 30.0, 24.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Obsidian",
+        "gameID": "OBSIDIAN",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Obsidian",
+        "gameID": "ENCHANTED_OBSIDIAN",
+        "craft": {
+          "usedItemID": "OBSIDIAN",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Glowstone": {
+    "minionData": {
+      "delays": [25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 19.0, 19.0, 16.0, 16.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Glowstone Dust",
+        "gameID": "GLOWSTONE_DUST",
+        "actionYield": 3.0
+      },
+      "1": {
+        "name": "Enchanted Glowstone Dust",
+        "gameID": "ENCHANTED_GLOWSTONE_DUST",
+        "craft": {
+          "usedItemID": "GLOWSTONE_DUST",
+          "number": 192
+        }
+      },
+      "2": {
+        "name": "Enchanted Glowstone Block",
+        "gameID": "ENCHANTED_GLOWSTONE",
+        "craft": {
+          "usedItemID": "GLOWSTONE_DUST",
+          "number": 26864
+        }
+      }
+    }
+  },
+  "Gravel": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 19.0, 19.0, 16.0, 16.0, 13.0],
+      "diamondSpreading": false,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Flint",
+        "gameID": "FLINT",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Flint",
+        "gameID": "ENCHANTED_FLINT",
+        "craft": {
+          "usedItemID": "FLINT",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Sand": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 19.0, 19.0, 16.0, 16.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Sand",
+        "gameID": "SAND",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Sand",
+        "gameID": "ENCHANTED_SAND",
+        "craft": {
+          "usedItemID": "SAND",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Clay": {
+    "minionData": {
+      "delays": [32.0, 32.0, 30.0, 30.0, 27.5, 27.5, 24.0, 24.0, 20.0, 20.0, 16.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Clay",
+        "gameID": "CLAY_BALL",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Clay",
+        "gameID": "ENCHANTED_CLAY_BALL",
+        "craft": {
+          "usedItemID": "CLAY_BALL",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Ice": {
+    "minionData": {
+      "delays": [14.0, 14.0, 12.0, 12.0, 10.0, 10.0, 9.0, 9.0, 8.0, 8.0, 7.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Ice",
+        "gameID": "ICE",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Ice",
+        "gameID": "ENCHANTED_ICE",
+        "craft": {
+          "usedItemID": "ICE",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Packed Ice",
+        "gameID": "ENCHANTED_PACKED_ICE",
+        "craft": {
+          "usedItemID": "ICE",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Snow": {
+    "minionData": {
+      "delays": [13.0, 13.0, 12.0, 12.0, 11.0, 11.0, 9.5, 9.5, 8.0, 8.0, 6.5],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Snow Ball",
+        "gameID": "SNOW_BALL",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Snow Block",
+        "gameID": "ENCHANTED_SNOW_BLOCK",
+        "craft": {
+          "usedItemID": "SNOW_BALL",
+          "number": 640
+        }
+      }
+    }
+  },
+  "Coal": {
+    "minionData": {
+      "delays": [15.0, 15.0, 13.0, 13.0, 12.0, 12.0, 10.0, 10.0, 9.0, 9.0, 7.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Coal",
+        "gameID": "COAL",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Coal",
+        "gameID": "ENCHANTED_COAL",
+        "craft": {
+          "usedItemID": "COAL",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Coal Block",
+        "gameID": "ENCHANTED_COAL_BLOCK",
+        "craft": {
+          "usedItemID": "COAL",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Iron": {
+    "minionData": {
+      "delays": [17.0, 17.0, 15.0, 15.0, 14.0, 14.0, 12.0, 12.0, 10.0, 10.0, 8.0],
+      "diamondSpreading": false,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Iron Ingot",
+        "gameID": "IRON_INGOT",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Iron",
+        "gameID": "ENCHANTED_IRON",
+        "craft": {
+          "usedItemID": "IRON_INGOT",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Iron Block",
+        "gameID": "ENCHANTED_IRON_BLOCK",
+        "craft": {
+          "usedItemID": "IRON_INGOT",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Gold": {
+    "minionData": {
+      "delays": [22.0, 22.0, 20.0, 20.0, 18.0, 18.0, 16.0, 16.0, 14.0, 14.0, 11.0],
+      "diamondSpreading": false,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Gold Ingot",
+        "gameID": "GOLD_INGOT",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Gold",
+        "gameID": "ENCHANTED_GOLD",
+        "craft": {
+          "usedItemID": "GOLD_INGOT",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Gold Block",
+        "gameID": "ENCHANTED_GOLD_BLOCK",
+        "craft": {
+          "usedItemID": "GOLD_INGOT",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Diamond": {
+    "minionData": {
+      "delays": [29.0, 29.0, 27.0, 27.0, 25.0, 25.0, 22.0, 22.0, 19.0, 19.0, 15.0],
+      "diamondSpreading": false,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Diamond",
+        "gameID": "DIAMOND",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Diamond",
+        "gameID": "ENCHANTED_DIAMOND",
+        "craft": {
+          "usedItemID": "DIAMOND",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Diamond Block",
+        "gameID": "ENCHANTED_DIAMOND_BLOCK",
+        "craft": {
+          "usedItemID": "DIAMOND",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Lapis": {
+    "minionData": {
+      "delays": [29.0, 29.0, 27.0, 27.0, 25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 18.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Lapis",
+        "gameID": "INK_SACK:4",
+        "_comment": "LOL",
+        "actionYield": 6.0
+      },
+      "1": {
+        "name": "Enchanted Lapis",
+        "gameID": "ENCHANTED_LAPIS_LAZULI",
+        "craft": {
+          "usedItemID": "INK_SACK:4",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Lapis Block",
+        "gameID": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+        "craft": {
+          "usedItemID": "INK_SACK:4",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Redstone": {
+    "minionData": {
+      "delays": [29.0, 29.0, 27.0, 27.0, 25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 18.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Redstone",
+        "gameID": "REDSTONE",
+        "actionYield": 4.5
+      },
+      "1": {
+        "name": "Enchanted Redstone",
+        "gameID": "ENCHANTED_REDSTONE",
+        "craft": {
+          "usedItemID": "REDSTONE",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Redstone Block",
+        "gameID": "ENCHANTED_REDSTONE_BLOCK",
+        "craft": {
+          "usedItemID": "REDSTONE",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Emerald": {
+    "minionData": {
+      "delays": [28.0, 28.0, 26.0, 26.0, 24.0, 24.0, 21.0, 21.0, 18.0, 18.0, 14.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Emerald",
+        "gameID": "EMERALD",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Emerald",
+        "gameID": "ENCHANTED_EMERALD",
+        "craft": {
+          "usedItemID": "EMERALD",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Emerald Block",
+        "gameID": "ENCHANTED_EMERALD_BLOCK",
+        "craft": {
+          "usedItemID": "EMERALD",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Quartz": {
+    "minionData": {
+      "delays": [22.5, 22.5, 21.0, 21.0, 19.0, 19.0, 17.0, 17.0, 14.5, 14.5, 11.5],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Quartz",
+        "gameID": "QUARTZ",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Quartz",
+        "gameID": "ENCHANTED_QUARTZ",
+        "craft": {
+          "usedItemID": "QUARTZ",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Quartz Block",
+        "gameID": "ENCHANTED_QUARTZ_BLOCK",
+        "craft": {
+          "usedItemID": "QUARTZ",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "End Stone": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 19.0, 19.0, 16.0, 16.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Endstone",
+        "gameID": "ENDER_STONE",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Endstone",
+        "gameID": "ENCHANTED_ENDSTONE",
+        "craft": {
+          "usedItemID": "ENDER_STONE",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Wheat": {
+    "minionData": {
+      "delays": [15.0, 15.0, 13.0, 13.0, 11.0, 11.0, 10.0, 10.0, 9.0, 9.0, 8.0],
+      "diamondSpreading": false,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Wheat",
+        "gameID": "WHEAT",
+        "actionYield": 1.0
+      }, {
+        "name": "Seeds",
+        "gameID": "SEEDS",
+        "actionYield": 1.0
+      }],
+      "1": [{
+        "name": "Hay Bale",
+        "gameID": "HAY_BLOCK",
+        "craft": {
+          "usedItemID": "WHEAT",
+          "number": 9
+        }
+      }, {
+        "name": "Enchanted Seeds",
+        "gameID": "ENCHANTED_SEEDS",
+        "craft": {
+          "usedItemID": "SEEDS",
+          "number": 160
+        }
+      }],
+      "3": [{
+        "name": "Enchanted Hay Bale",
+        "gameID": "ENCHANTED_HAY_BLOCK",
+        "craft": {
+          "usedItemID": "WHEAT",
+          "number": 1296
+        }
+      }]
+    }
+  },
+  "Melon": {
+    "minionData": {
+      "delays": [24.0, 24.0, 22.5, 22.5, 21.0, 21.0, 18.5, 18.5, 16.0, 16.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Melon",
+        "gameID": "MELON",
+        "actionYield": 6.0
+      },
+      "1": {
+        "name": "Enchanted Melon",
+        "gameID": "ENCHANTED_MELON",
+        "craft": {
+          "usedItemID": "MELON",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Melon Block",
+        "gameID": "ENCHANTED_MELON_BLOCK",
+        "craft": {
+          "usedItemID": "MELON",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Pumpkin": {
+    "minionData": {
+      "delays": [32.0, 32.0, 30.0, 30.0, 27.0, 27.0, 24.0, 24.0, 20.0, 20.0, 16.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Pumpkin",
+        "gameID": "PUMPKIN",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Pumpkin",
+        "gameID": "ENCHANTED_PUMPKIN",
+        "craft": {
+          "usedItemID": "PUMPKIN",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Carrot": {
+    "minionData": {
+      "delays": [20.0, 20.0, 18.0, 18.0, 16.0, 16.0, 14.0, 14.0, 12.0, 12.0, 10.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Carrot",
+        "gameID": "CARROT_ITEM",
+        "actionYield": 3.0
+      },
+      "1": {
+        "name": "Enchanted Carrot",
+        "gameID": "ENCHANTED_CARROT",
+        "craft": {
+          "usedItemID": "CARROT_ITEM",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Potato": {
+    "minionData": {
+      "delays": [20.0, 20.0, 18.0, 18.0, 16.0, 16.0, 14.0, 14.0, 12.0, 12.0, 10.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Potato",
+        "gameID": "POTATO_ITEM",
+        "actionYield": 3.0
+      },
+      "1": {
+        "name": "Enchanted Potato",
+        "gameID": "ENCHANTED_POTATO",
+        "craft": {
+          "usedItemID": "POTATO_ITEM",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Baked Potato",
+        "gameID": "ENCHANTED_BAKED_POTATO",
+        "craft": {
+          "usedItemID": "POTATO_ITEM",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Mushroom": {
+    "minionData": {
+      "delays": [30.0, 30.0, 28.0, 28.0, 26.0, 26.0, 23.0, 23.0, 20.0, 20.0, 16.0],
+      "diamondSpreading": false,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Red Mushroom",
+        "gameID": "RED_MUSHROOM",
+        "actionYield": 0.5
+      }, {
+        "name": "Brown Mushroom",
+        "gameID": "BROWN_MUSHROOM",
+        "actionYield": 0.5
+      }],
+      "1": [{
+        "name": "Enchanted Red Mushroom Block",
+        "gameID": "ENCHANTED_HUGE_MUSHROOM_1",
+        "craft": {
+          "usedItemID": "RED_MUSHROOM",
+          "number": 5184
+        }
+      }, {
+        "name": "Enchanted Brown Mushroom Block",
+        "gameID": "ENCHANTED_HUGE_MUSHROOM_2",
+        "craft": {
+          "usedItemID": "BROWN_MUSHROOM",
+          "number": 5184
+        }
+      }]
+    }
+  },
+  "Cactus": {
+    "minionData": {
+      "delays": [27.0, 27.0, 25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 18.0, 18.0, 15.0],
+      "diamondSpreading": false,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Cactus Green",
+        "gameID": null,
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Cactus Green",
+        "gameID": "ENCHANTED_CACTUS_GREEN",
+        "craft": {
+          "usedItemID": null,
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Cactus",
+        "gameID": "ENCHANTED_CACTUS",
+        "craft": {
+          "usedItemID": null,
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Cocoa Beans": {
+    "minionData": {
+      "delays": [27.0, 27.0, 25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 18.0, 18.0, 15.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Cocoa Beans",
+        "gameID": "INK_SACK:3",
+        "actionYield": 3.0
+      },
+      "1": {
+        "name": "Enchanted Cocoa Bean",
+        "gameID": "ENCHANTED_COCOA",
+        "craft": {
+          "usedItemID": "INK_SACK:3",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Sugar Cane": {
+    "minionData": {
+      "delays": [22.0, 22.0, 20.0, 20.0, 18.0, 18.0, 16.0, 16.0, 14.5, 14.5, 12.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Sugar Cane",
+        "gameID": "SUGAR_CANE",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Sugar",
+        "gameID": "ENCHANTED_SUGAR",
+        "craft": {
+          "usedItemID": "SUGAR_CANE",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Sugar Cane",
+        "gameID": "ENCHANTED_SUGAR_CANE",
+        "craft": {
+          "usedItemID": "SUGAR_CANE",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Nether Wart": {
+    "minionData": {
+      "delays": [50.0, 50.0, 47.0, 47.0, 44.0, 44.0, 41.0, 41.0, 38.0, 38.0, 32.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Nether Wart",
+        "gameID": "NETHER_STALK",
+        "actionYield": 3.0
+      },
+      "1": {
+        "name": "Enchanted Nether Wart",
+        "gameID": "ENCHANTED_NETHER_STALK",
+        "craft": {
+          "usedItemID": "NETHER_STALK",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Fish": {
+    "minionData": {
+      "delays": [78.0, 75.0, 72.0, 72.0, 68.0, 68.0, 62.5, 62.5, 53.0, 53.0, 35.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Raw Fish",
+        "gameID": "RAW_FISH",
+        "actionYield": 0.544
+      }, {
+        "name": "Raw Salmon",
+        "gameID": "RAW_FISH:1",
+        "actionYield": 0.227
+      }, {
+        "name": "Sponge",
+        "gameID": "SPONGE",
+        "actionYield": 0.026
+      }, {
+        "name": "Clownfish",
+        "gameID": "RAW_FISH:2",
+        "actionYield": 0.035
+      }, {
+        "name": "Pufferfish",
+        "gameID": "RAW_FISH:3",
+        "actionYield": 0.117
+      }, {
+        "name": "Prismarine Crystals",
+        "gameID": "PRISMARINE_CRYSTALS",
+        "actionYield": 0.026
+      }, {
+        "name": "Prismarine Shard",
+        "gameID": "PRISMARINE_SHARD",
+        "actionYield": 0.026
+      }],
+      "1": [{
+        "name": "Enchanted Raw Fish",
+        "gameID": "ENCHANTED_RAW_FISH",
+        "craft": {
+          "usedItemID": "RAW_FISH",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Raw Salmon",
+        "gameID": "ENCHANTED_RAW_SALMON",
+        "craft": {
+          "usedItemID": "RAW_FISH:1",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Sponge",
+        "gameID": "ENCHANTED_SPONGE",
+        "craft": {
+          "usedItemID": "SPONGE",
+          "number": 40
+        }
+      }, {
+        "name": "Enchanted Clownfish",
+        "gameID": "ENCHANTED_CLOWNFISH",
+        "craft": {
+          "usedItemID": "RAW_FISH:2",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Pufferfish",
+        "gameID": "ENCHANTED_PUFFERFISH",
+        "craft": {
+          "usedItemID": "RAW_FISH:3",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Prismarine Crystals",
+        "gameID": "ENCHANTED_PRISMARINE_CRYSTALS",
+        "craft": {
+          "usedItemID": "PRISMARINE_CRYSTALS",
+          "number": 80
+        }
+      }, {
+        "name": "Enchanted Prismarine Shard",
+        "gameID": "ENCHANTED_PRISMARINE_SHARD",
+        "craft": {
+          "usedItemID": "PRISMARINE_SHARD",
+          "number": 80
+        }
+      }],
+      "2": [{
+        "name": "Enchanted Cooked Fish",
+        "gameID": "ENCHANTED_COOKED_FISH",
+        "craft": {
+          "usedItemID": "RAW_FISH",
+          "number": 25600
+        }
+      }, {
+        "name": "Enchanted Cooked Salmon",
+        "gameID": "ENCHANTED_COOKED_SALMON",
+        "craft": {
+          "usedItemID": "RAW_FISH:1",
+          "number": 25600
+        }
+      }, {
+        "name": "Enchanted Wet Sponge",
+        "gameID": "ENCHANTED_WET_SPONGE",
+        "craft": {
+          "usedItemID": "RAW_FISH:2",
+          "number": 1600
+        }
+      }]
+    }
+  },
+  "Zombie": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Rotten Flesh",
+        "gameID": "ROTTEN_FLESH",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Rotten Flesh",
+        "gameID": "ENCHANTED_ROTTEN_FLESH",
+        "craft": {
+          "usedItemID": "ROTTEN_FLESH",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Revenant": {
+    "minionData": {
+      "delays": [29.0, 29.0, 26.0, 26.0, 23.0, 23.0, 19.0, 19.0, 14.5, 14.5, 10.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Rotten Flesh",
+        "gameID": "ROTTEN_FLESH",
+        "actionYield": 3.0
+      }, {
+        "name": "Diamond",
+        "gameID": "DIAMOND",
+        "actionYield": 0.2
+      }],
+      "1": [{
+        "name": "Enchanted Rotten Flesh",
+        "gameID": "ENCHANTED_ROTTEN_FLESH",
+        "craft": {
+          "usedItemID": "ROTTEN_FLESH",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted DIAMOND",
+        "gameID": "ENCHANTED_DIAMOND",
+        "craft": {
+          "usedItemID": "DIAMOND",
+          "number": 160
+        }
+      }]
+    }
+  },
+  "Skeleton": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Bone",
+        "gameID": "BONE",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Bone",
+        "gameID": "ENCHANTED_BONE",
+        "craft": {
+          "usedItemID": "BONE",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Creeper": {
+    "minionData": {
+      "delays": [27.0, 27.0, 25.0, 25.0, 23.0, 23.0, 21.0, 21.0, 18.0, 18.0, 14.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Gunpowder",
+        "gameID": "SULPHUR",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Gunpowder",
+        "gameID": "ENCHANTED_GUNPOWDER",
+        "craft": {
+          "usedItemID": "SULPHUR",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Spider": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "String",
+        "gameID": "STRING",
+        "actionYield": 1
+      }, {
+        "name": "Spider Eye",
+        "gameID": "SPIDER_EYE",
+        "actionYield": 0.5
+      }],
+      "1": [{
+        "name": "Enchanted String",
+        "gameID": "ENCHANTED_STRING",
+        "craft": {
+          "usedItemID": "STRING",
+          "number": 192
+        }
+      }, {
+        "name": "Enchanted Spider Eye",
+        "gameID": "ENCHANTED_SPIDER_EYE",
+        "craft": {
+          "usedItemID": "SPIDER_EYE",
+          "number": 160
+        }
+      }]
+    }
+  },
+  "Tarantula": {
+    "minionData": {
+      "delays": [29.0, 29.0, 26.0, 26.0, 23.0, 23.0, 19.0, 19.0, 14.5, 14.5, 10.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "String",
+        "gameID": "STRING",
+        "actionYield": 3.16
+      }, {
+        "name": "Spider Eye",
+        "gameID": "SPIDER_EYE",
+        "actionYield": 1.0
+      }, {
+        "name": "Iron Ingot",
+        "gameID": "IRON_INGOT",
+        "actionYield": 0.2
+      }],
+      "1": [{
+        "name": "Enchanted String",
+        "gameID": "ENCHANTED_STRING",
+        "craft": {
+          "usedItemID": "STRING",
+          "number": 192
+        }
+      }, {
+        "name": "Enchanted Spider Eye",
+        "gameID": "ENCHANTED_SPIDER_EYE",
+        "craft": {
+          "usedItemID": "SPIDER_EYE",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Iron",
+        "gameID": "ENCHANTED_IRON",
+        "craft": {
+          "usedItemID": "IRON_INGOT",
+          "number": 160
+        }
+      }]
+    }
+  },
+  "Cave Spider": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "String",
+        "gameID": "STRING",
+        "actionYield": 0.5
+      }, {
+        "name": "Spider Eye",
+        "gameID": "SPIDER_EYE",
+        "actionYield": 1.0
+      }],
+      "1": [{
+        "name": "Enchanted String",
+        "gameID": "ENCHANTED_STRING",
+        "craft": {
+          "usedItemID": "STRING",
+          "number": 192
+        }
+      }, {
+        "name": "Enchanted Spider Eye",
+        "gameID": "ENCHANTED_SPIDER_EYE",
+        "craft": {
+          "usedItemID": "SPIDER_EYE",
+          "number": 160
+        }
+      }]
+    }
+  },
+  "Blaze": {
+    "minionData": {
+      "delays": [33.0, 33.0, 31.0, 31.0, 28.5, 28.5, 25.0, 25.0, 21.0, 21.0, 16.5],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Blaze Rod",
+        "gameID": "BLAZE_ROD",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Blaze Powder",
+        "gameID": "ENCHANTED_BLAZE_POWDER",
+        "craft": {
+          "usedItemID": "BLAZE_ROD",
+          "number": 160
+        }
+      },
+      "1": {
+        "name": "Enchanted Blaze Rod",
+        "gameID": "ENCHANTED_BLAZE_ROD",
+        "craft": {
+          "usedItemID": "BLAZE_ROD",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Magma Cube": {
+    "minionData": {
+      "delays": [32.0, 32.0, 30.0, 30.0, 28.0, 28.0, 25.0, 25.0, 22.0, 22.0, 18.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Magma Cream",
+        "gameID": "MAGMA_CREAM",
+        "actionYield": 1.8
+      },
+      "1": {
+        "name": "Enchanted Magma Cream",
+        "gameID": "ENCHANTED_MAGMA_CREAM",
+        "craft": {
+          "usedItemID": "MAGMA_CREAM",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Enderman": {
+    "minionData": {
+      "delays": [32.0, 32.0, 30.0, 30.0, 28.0, 28.0, 25.0, 25.0, 22.0, 22.0, 18.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Ender Pearl",
+        "gameID": "ENDER_PEARL",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Ender Pearl",
+        "gameID": "ENCHANTED_ENDER_PEARL",
+        "craft": {
+          "usedItemID": "ENDER_PEARL",
+          "number": 20
+        }
+      }
+    }
+  },
+  "Ghast": {
+    "minionData": {
+      "delays": [50.0, 50.0, 47.0, 47.0, 44.0, 44.0, 41.0, 41.0, 38.0, 38.0, 32.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Ghast Tear",
+        "gameID": "GHAST_TEAR",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Ghast Tear",
+        "gameID": "ENCHANTED_GHAST_TEAR",
+        "craft": {
+          "usedItemID": "GHAST_TEAR",
+          "number": 5
+        }
+      }
+    }
+  },
+  "Slime": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 19.0, 19.0, 16.0, 16.0, 12.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Slime Ball",
+        "gameID": "SLIME_BALL",
+        "actionYield": 1.8
+      },
+      "1": {
+        "name": "Enchanted Slime Ball",
+        "gameID": "ENCHANTED_SLIME_BALL",
+        "craft": {
+          "usedItemID": "SLIME_BALL",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Slime Block",
+        "gameID": "ENCHANTED_SLIME_BLOCK",
+        "craft": {
+          "usedItemID": "SLIME_BALL",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Cow": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Raw Beef",
+        "gameID": "RAW_BEEF",
+        "actionYield": 1.0
+      }, {
+        "name": "Leather",
+        "gameID": "LEATHER",
+        "actionYield": 1.0
+      }],
+      "1": [{
+        "name": "Enchanted Raw Beef",
+        "gameID": "ENCHANTED_RAW_BEEF",
+        "craft": {
+          "usedItemID": "RAW_BEEF",
+          "number": 25600
+        }
+      }, {
+        "name": "Enchanted Leather",
+        "gameID": "ENCHANTED_LEATHER",
+        "craft": {
+          "usedItemID": "LEATHER",
+          "number": 576
+        }
+      }]
+    }
+  },
+  "Pig": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Raw Porkchop",
+        "gameID": "PORK",
+        "actionYield": 1.0
+      },
+      "1": {
+        "name": "Enchanted Pork",
+        "gameID": "ENCHANTED_PORK",
+        "craft": {
+          "usedItemID": "PORK",
+          "number": 160
+        }
+      },
+      "2": {
+        "name": "Enchanted Grilled Pork",
+        "gameID": "ENCHANTED_GRILLED_PORK",
+        "craft": {
+          "usedItemID": "PORK",
+          "number": 25600
+        }
+      }
+    }
+  },
+  "Chicken": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 18.0, 18.0, 15.0],
+      "diamondSpreading": false,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Egg",
+        "gameID": null,
+        "actionYield": 1.0
+      }, {
+        "name": "Raw Chicken",
+        "gameID": "RAW_CHICKEN",
+        "actionYield": 1.0
+      }, {
+        "name": "Feather",
+        "gameID": "FEATHER",
+        "actionYield": 1.0
+      }],
+      "1": [{
+        "name": "Enchanted Egg",
+        "gameID": "ENCHANTED_EGG",
+        "craft": {
+          "usedItemID": null,
+          "number": 144
+        }
+      }, {
+        "name": "Enchanted Raw Chicken",
+        "gameID": "ENCHANTED_RAW_CHICKEN",
+        "craft": {
+          "usedItemID": "RAW_CHICKEN",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Feather",
+        "gameID": "ENCHANTED_FEATHER",
+        "craft": {
+          "usedItemID": "FEATHER",
+          "number": 160
+        }
+      }],
+      "2": [{
+        "name": "Super Enchanted Egg",
+        "gameID": "SUPER_EGG",
+        "craft": {
+          "usedItemID": "RAW_CHICKEN",
+          "number": 20736
+        }
+      }]
+    }
+  },
+  "Sheep": {
+    "minionData": {
+      "delays": [24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 18.0, 18.0, 16.0, 16.0, 12.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Mutton",
+        "gameID": "MUTTON",
+        "actionYield": 1.0
+      }, {
+        "name": "Wool",
+        "gameID": null,
+        "actionYield": 1.0
+      }],
+      "1": [{
+        "name": "Enchanted Mutton",
+        "gameID": "ENCHANTED_MUTTON",
+        "craft": {
+          "usedItemID": "MUTTON",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Wool",
+        "gameID": null,
+        "craft": {
+          "usedItemID": null,
+          "number": 160
+        }
+      }],
+      "2": [{
+        "name": "Enchanted Cooked Mutton",
+        "gameID": "ENCHANTED_COOKED_MUTTON",
+        "craft": {
+          "usedItemID": "MUTTON",
+          "number": 25600
+        }
+      }]
+    }
+  },
+  "Rabbit": {
+    "minionData": {
+      "delays": [26.0, 26.0, 24.0, 24.0, 22.0, 22.0, 20.0, 20.0, 17.0, 17.0, 13.0],
+      "diamondSpreading": true,
+      "multiYield": true
+    },
+    "items": {
+      "0": [{
+        "name": "Raw Rabbit",
+        "gameID": "RABBIT",
+        "actionYield": 1.0
+      }, {
+        "name": "Rabbit's Foot",
+        "gameID": "RABBIT_FOOT",
+        "actionYield": 0.35
+      }, {
+        "name": "Rabbit Hide",
+        "gameID": "RABBIT_HIDE",
+        "actionYield": 0.35
+      }],
+      "1": [{
+        "name": "Enchanted Raw Rabbit",
+        "gameID": "ENCHANTED_RABBIT",
+        "craft": {
+          "usedItemID": "RABBIT",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Rabbit Foot",
+        "gameID": "ENCHANTED_RABBIT_FOOT",
+        "craft": {
+          "usedItemID": "RABBIT_FOOT",
+          "number": 160
+        }
+      }, {
+        "name": "Enchanted Rabbit Hide",
+        "gameID": "ENCHANTED_RABBIT_HIDE",
+        "craft": {
+          "usedItemID": "RABBIT_HIDE",
+          "number": 576
+        }
+      }]
+    }
+  },
+  "Oak": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Oak Wood",
+        "gameID": "LOG",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Oak Wood",
+        "gameID": "ENCHANTED_OAK_LOG",
+        "craft": {
+          "usedItemID": "LOG",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Spruce": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Spruce Wood",
+        "gameID": "LOG:1",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Spruce Wood",
+        "gameID": "ENCHANTED_SPRUCE_LOG",
+        "craft": {
+          "usedItemID": "LOG:1",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Birch": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Birch Wood",
+        "gameID": "LOG:2",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Birch Wood",
+        "gameID": "ENCHANTED_BIRCH_LOG",
+        "craft": {
+          "usedItemID": "LOG:2",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Dark Oak": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Dark Oak Wood",
+        "gameID": "LOG_2:1",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Dark Oak Wood",
+        "gameID": "ENCHANTED_DARK_OAK_LOG",
+        "craft": {
+          "usedItemID": "LOG_2:1",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Acacia": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Acacia Wood",
+        "gameID": "LOG_2",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Acacia Wood",
+        "gameID": "ENCHANTED_ACACIA_LOG",
+        "craft": {
+          "usedItemID": "LOG_2",
+          "number": 160
+        }
+      }
+    }
+  },
+  "Jungle": {
+    "minionData": {
+      "delays": [48.0, 48.0, 45.0, 45.0, 42.0, 42.0, 38.0, 38.0, 33.0, 33.0, 27.0],
+      "diamondSpreading": true,
+      "multiYield": false
+    },
+    "items": {
+      "0": {
+        "name": "Jungle Wood",
+        "gameID": "LOG:3",
+        "actionYield": 4.0
+      },
+      "1": {
+        "name": "Enchanted Jungle Wood",
+        "gameID": "ENCHANTED_JUNGLE_LOG",
+        "craft": {
+          "usedItemID": "LOG:3",
+          "number": 160
+        }
+      }
+    }
+  }
+}
