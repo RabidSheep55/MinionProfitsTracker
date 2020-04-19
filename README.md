@@ -44,8 +44,9 @@ Great! Now that you have the prerequisites setup, all you need to do is fetch th
 
 When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by changing the `lvl` variable in the respective files, these are clearly identified with comments. You can also change the fuel multiplier in the types comparator script in the same way.
 
+### Outputs
 The outputs should be immediately visible in the matplotlib viewer, but they are also saved in the **Raw Figs** folder as images.
-
+The raw outputs from matplotlib have a bit of extra space around the graph, you might want to crop that out.
 
 ## Acknowledgements
 Thanks to TBlazeWarriorT, I used a lot of the minion data from his famous spreadsheet, on top of painfully collecting my own.
