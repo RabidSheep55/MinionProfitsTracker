@@ -8,16 +8,16 @@ Tired of guessing which minion is the most profitable? Tired of going through ea
  - Easily compare fuel viabilities
  - Display data for every minion at once on really spicy looking graphs:
 
-## Example Graphs
-### Fuels [adding more soon]
+### Example Graphs
+#### Fuels [adding more soon]
 This takes into account the price of the fuel per hour, as you can see, some fuel choices result in a net loss.
 FuelsLvlMax.png
 
-### Types sold
+#### Types sold
 Some items might be worth selling to the merchant, or as their super-enchanted form to maximise profit. (I left the base price here, but it's a bit unfeasible as minions would fill up insanely quickly)
 TypesLvlMax.png
 
-### Minion rank
+#### Minion rank
 This one shows the evolution of the minion's rank in terms of profit, as it is leveled up.
 MinionLvlVsRank.png
 
@@ -44,7 +44,7 @@ Great! Now that you have the prerequisites setup, all you need to do is fetch th
 When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by changing the `lvl` variable in the respective files, these are clearly identified with comments. You can also change the fuel multiplier in the types comparator script in the same way.
 
 
-#### Acknowledgements
+## Acknowledgements
 Thanks to TBlazeWarriorT, I used a lot of the minion data from his famous spreadsheet, on top of painfully collecting my own.
 Thanks to ThirtyVirus for providing the adequate situation in which I could release this tool.
 If you spot any inconsistencies in the graphs or in the code, please let me know!!
