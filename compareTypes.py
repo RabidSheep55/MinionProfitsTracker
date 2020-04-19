@@ -2,18 +2,16 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('clean_gridless')
-
 # Import Minion/ID data
-with open("ID Dict - Edited.json", 'r') as file:
+with open(r"Resources\minionDataDict.json", 'r') as file:
     mData = json.load(file)
 
 # Import bazaar prices
-with open("prices.json", 'r') as file:
+with open(r"Resources\bazaarPrices.json", 'r') as file:
     prices = json.load(file)
 
 # Import merchant prices
-with open("merchantSellValues.json", 'r') as file:
+with open(r"Resources\merchantSellValues.json", 'r') as file:
     merchSellValues = json.load(file)
 
 ### MINION LEVEL SELECTION
@@ -23,42 +21,47 @@ with open("merchantSellValues.json", 'r') as file:
 lvl = -1 # Max level
 
 ### Fuel Multiplier Setup
-fuel = 1.25
+fuel = 1.25 # Ench Lava Bucket
 
-# Find each minion yield
-minions = list(mData.keys())
+#### Compute yields from each minion
 baseProfits = {}
 enchProfits = {}
 superEnchProfits = {}
 merchProfits = {}
-for m in minions:
-    curr = mData[m]
+for m in mData.keys():
+    curr = mData[m] # Current minion
     breaksPerH = (3600 / curr["minionData"]["delays"][lvl]) * fuel * 0.5
 
+    # Compute Diamond Spreading profits (selling ench diamonds to Bazaar)
     if curr["minionData"]["diamondSpreading"]:
         diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
         merchDiaBonus = 2 * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
 
+    # Fish minion only has one type of action, (not break or place)
     if m == 'Fish':
         breaksPerH *= 2
 
+    # Compute yields from minons which generate multiple items differently
     if not mData[m]["minionData"]["multiYield"]:
         basePerH = curr["items"]["0"]["actionYield"] * breaksPerH
         basePrice = prices.get(curr["items"]["0"]["gameID"], 0)
         baseProfits[m] = basePerH * basePrice + diaBonus
 
+        # Compute Merchant Profits
         if curr["items"]["0"]["gameID"]:
             merchPrice = merchSellValues[curr["items"]["0"]["gameID"]]["merchSellValue"]
         else:
             merchPrice = 0
-            print(f"[ERROR] {m} Minion")
+            print(f"[ERROR] Price for {m} Minion Not found")
         merchProfits[m] = basePerH * merchPrice + merchDiaBonus
 
+        # Enchanted Item Profits
         if "1" in curr["items"]:
             enchPerH = basePerH / curr["items"]["1"]["craft"]["number"]
             enchPrice = prices.get(curr["items"]["1"]["gameID"], 0)
             enchProfits[m] = enchPerH * enchPrice + diaBonus
 
+        # Super Enchanted Item Profits
         if "2" in curr["items"]:
             superEnchPerH = basePerH / curr["items"]["2"]["craft"]["number"]
             superEnchPrice = prices.get(curr["items"]["2"]["gameID"], 0)
@@ -82,6 +85,7 @@ for m in minions:
         baseProfits[m] = baseProfit + diaBonus
         merchProfits[m] = merchProfit + merchDiaBonus
 
+        # Enchanted Item Profits
         if "1" in curr["items"]:
             enchProfit = 0
             for i in range(len(curr["items"]["1"])):
@@ -90,6 +94,7 @@ for m in minions:
                 enchProfit += enchPerH * enchPrice
             enchProfits[m] = enchProfit + diaBonus
 
+        # Super Enchanted Item Profits
         if "2" in curr["items"]:
             superEnchProfit = 0
             for i in range(len(curr["items"]["2"])):
@@ -98,16 +103,12 @@ for m in minions:
                 superEnchProfit += superEnchPerH * superEnchPrice
             superEnchProfits[m] = superEnchProfit + diaBonus
 
-keys = list(baseProfits.keys())
-
-# Sort by enchProfits
-sorter = []
-for k in keys:
-    sorter += [(k, enchProfits.get(k, 0))]
+### Sort minions by Enchanted item profits
+sorter = [[key, value] for key, value in enchProfits.items()]
 sorter.sort(key= lambda a: a[1], reverse=True)
-newKeys = [key[0] for key in sorter]
+newKeys = [key[0] for key in sorter] # Sorted list of keys
 
-# Plot results (making sure to not overlap bars)
+### Plot results (making sure to not overlap bars)
 fig, ax = plt.subplots()
 [c1, c2, c3, c4] = ["#f1c40f", "#e67e22", "#e74c3c", "#1abc9c"]
 for k in newKeys:
@@ -130,12 +131,18 @@ ax.set_ylabel("Profit/h")
 plt.legend(title="Types and Place Sold")
 plt.title(f"Profit / hour / minion | Lava Bucket | Minion lvl {lvl+1 if lvl>0 else 11} \n Bazaar prices updated on {prices['time']} CEST", pad=-10, fontsize=13)
 
+# mplstyle setting ported into code (I use custom .mplsytle files to make this easier usually)
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+ax.minorticks_on()
+ax.xaxis.set_tick_params(which='minor', bottom=False)
+ax.margins(x=0, y=0)
+
 ax.spines['bottom'].set_position('zero')
 plt.xticks(rotation=90)
 plt.tight_layout()
 
 bg = "#ecf0f1"
-
 fig.patch.set_facecolor(bg)
 ax.set_facecolor(bg)
 

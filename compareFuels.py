@@ -2,8 +2,6 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('clean_gridless')
-
 # Import Minion/ID data
 with open(r"Resources\minionDataDict.json", 'r') as file:
     mData = json.load(file)
@@ -97,22 +95,23 @@ ax.bar(newKeys[1], 0, color=c3, label="Catalyst")
 ax.bar(newKeys[1], 0, color=c4, label="Foul Flesh")
 ax.bar(newKeys[1], 0, color=c5, label="Lava Bucket")
 
-# plt.bar(newKeys, ench, color="grey", alpha=1, label="No Fuel")
-# plt.bar(newKeys, wheelProfit, color="magenta", alpha=1, label="Hamster Wheel")
-# plt.bar(newKeys, catalystProfit, color="teal", alpha=1, label="Catalyst")
-# plt.bar(newKeys, fleshProfit, color="yellow", alpha=1, label="Foul Flesh")
-
 ### Figure Settings
 ax.set_ylabel("Profit/h")
 plt.legend(title="Fuels")
 plt.title(f"Profit / hour / minion | Ench items sold | Minion lvl {lvl+1 if lvl>0 else 11} \n Bazaar prices updated on {prices['time']} CEST", pad=-10, fontsize=13)
+
+# mplstyle setting ported into code (I use custom .mplsytle files to make this easier usually)
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+ax.minorticks_on()
+ax.xaxis.set_tick_params(which='minor', bottom=False)
+ax.margins(x=0, y=0)
 
 ax.spines['bottom'].set_position('zero')
 plt.xticks(rotation=90)
 plt.tight_layout()
 
 bg = "#ecf0f1"
-
 fig.patch.set_facecolor(bg)
 ax.set_facecolor(bg)
 
