@@ -19,7 +19,7 @@ Some items might be worth selling to the merchant, or as their super-enchanted f
 
 ### Minion rank
 This one shows the evolution of the minion's rank in terms of profit, as it is leveled up.
-![Minion Level Profit Rank Visualizer](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/MinionLvlVsRank%20-%20Example.png | width=200)
+![Minion Level Profit Rank Visualizer](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/MinionLvlVsRank%20-%20Example.png)
 
 ## How to Use
 ### Dependencies
