@@ -17,7 +17,7 @@ with open("merchantSellValues.json", 'r') as file:
     merchSellValues = json.load(file)
 
 # Define setup
-lvl = -1 # Max level = -1
+lvl = 6 # Max level = -1
 fuel = 1.25
 
 # Find each minion yield

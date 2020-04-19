@@ -8,7 +8,7 @@ from datetime import datetime
 BASE_URL = r"https://api.hypixel.net/skyblock/bazaar/product"
 
 # Fetch API key from creds.txt
-with open("creds", 'r') as file:
+with open("creds.txt", 'r') as file:
     KEY = str(file.readlines()[0].rstrip())
 
 #### Functions

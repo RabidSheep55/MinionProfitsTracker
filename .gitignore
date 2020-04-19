@@ -1,2 +1,4 @@
-creds
-ID_Dict_Backups/**
+creds.txt
+ID_Dict_Backups
+Dict_Resources
+Test_Figures

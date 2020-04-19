@@ -56,19 +56,19 @@ ench = np.array([profit[1] for profit in profits])
 
 #### Compute Fuel Bonuses and Profits
 wheelPricePerH = prices.get("HAMSTER_WHEEL", 0)/24
-wheelBonus = 1.5
-wheelProfit = ench*wheelBonus - wheelPricePerH
+wheelBonus = 0.5
+wheelProfit = ench*(wheelBonus+1) - wheelPricePerH
 
 catalystPricePerH = prices.get("CATALYST", 0)/5
-catalystBonus = 1.9
+catalystBonus = 3
 catalystProfit = ench*catalystBonus - catalystPricePerH
 
 fleshPricePerH = prices.get("FOUL_FLESH", 0)/3
-fleshBonus = 3
-fleshProfit = ench*fleshBonus - fleshPricePerH
+fleshBonus = 0.9
+fleshProfit = ench*(fleshBonus+1) - fleshPricePerH
 
-lavaBonus = 1.25
-lavaProfit = ench*lavaBonus
+lavaBonus = 0.25
+lavaProfit = ench*(lavaBonus+1)
 
 ##### Plot Results
 fig, ax = plt.subplots()
@@ -85,7 +85,7 @@ for i in range(len(newKeys)):
         ax.bar(newKeys[i], p[1], color=p[0], alpha=1 if p[1]>0 else 0.2)
 
 # Add legend entries
-ax.bar(newKeys[1], 0, color=c1, label="Base")
+ax.bar(newKeys[1], 0, color=c1, label="None")
 ax.bar(newKeys[1], 0, color=c2, label="Hamster Wheel")
 ax.bar(newKeys[1], 0, color=c3, label="Catalyst")
 ax.bar(newKeys[1], 0, color=c4, label="Foul Flesh")
