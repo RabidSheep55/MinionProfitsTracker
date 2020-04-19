@@ -39,8 +39,10 @@ In order to automatically fetch the bazaar prices you'll need to provide your ow
 ```
 Copy the output key, and save it in a file called `creds.txt` in the **Resources** folder (the fetchPrices.py script will need that file to authenticate your requests to the API).
 
-## Running the Scipts
+### Running the Scipts
 Great! Now that you have al the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this will take a while, as each item is fetched independantly), and run whichever comparison tool you want!
+When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by changing the `lvl` variable in the respective files, these are clearly identified with comments.
+
 
 ## Acknowledgements
 Thanks to TBlazeWarriorT, I used a lot of the minion data from his famous spreadsheet, on top of painfully collecting my own.
