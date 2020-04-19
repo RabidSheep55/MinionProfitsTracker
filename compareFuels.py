@@ -5,30 +5,36 @@ import numpy as np
 plt.style.use('clean_gridless')
 
 # Import Minion/ID data
-with open("ID Dict - Edited.json", 'r') as file:
+with open(r"Resources\minionDataDict.json", 'r') as file:
     mData = json.load(file)
 
-# Import prices
-with open("prices.json", 'r') as file:
+# Import bazaar prices
+with open(r"Resources\bazaarPrices.json", 'r') as file:
     prices = json.load(file)
 
-# Define setup
+### MINION LEVEL SELECTION
+# Set your desired minion level starting from 0
+# So a level 5 minion has lvl=4
+# (Note: you can set max level by setting lvl=-1)
 lvl = -1 # Max level
-fuel = 1
 
-#### Find each minion yield
-minions = list(mData.keys())
+#### Compute yields from each minion
 enchProfits = {}
-for m in minions:
+# Iterate through every minion
+for m in mData.keys():
     curr = mData[m]
-    breaksPerH = (3600 / curr["minionData"]["delays"][lvl]) * fuel * 0.5
+    breaksPerH = (3600 / curr["minionData"]["delays"][lvl]) * 0.5
 
+    # Compute Diamond Spreading profits (selling ench diamonds)
     if curr["minionData"]["diamondSpreading"]:
         diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
 
+    # Fish minion only has one type of action, (not break or place)
     if m == "Fish":
         breaksPerH *= 2
 
+    # Compute yields from minons which generate multiple items differently
+    # Only concerned with the enchanted type sold here
     if not curr["minionData"]["multiYield"]:
         if "1" in curr["items"]:
             enchPerH = curr["items"]["0"]["actionYield"] * breaksPerH / curr["items"]["1"]["craft"]["number"]
@@ -44,17 +50,17 @@ for m in minions:
                 enchProfit += enchPerH * enchPrice
             enchProfits[m] = enchProfit + diaBonus
 
-#### Sort Profits
-keys = list(enchProfits.keys())
-profits = []
-for k in keys:
-    profits += [(k, enchProfits.get(k, 0))]
+#### Sort minons by profit
+# keys = list(enchProfits.keys())
+profits = [[key, value] for key, value in enchProfits.items()]
+# for k in keys:
+#     profits += [(k, enchProfits.get(k, 0))]
 
 profits.sort(key= lambda a: a[1], reverse=True)
 newKeys = [profit[0] for profit in profits]
 ench = np.array([profit[1] for profit in profits])
 
-#### Compute Fuel Bonuses and Profits
+#### Compute effect of Fuel Bonuses
 wheelPricePerH = prices.get("HAMSTER_WHEEL", 0)/24
 wheelBonus = 0.5
 wheelProfit = ench*(wheelBonus+1) - wheelPricePerH

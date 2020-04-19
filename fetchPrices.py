@@ -8,7 +8,7 @@ from datetime import datetime
 BASE_URL = r"https://api.hypixel.net/skyblock/bazaar/product"
 
 # Fetch API key from creds.txt
-with open("creds.txt", 'r') as file:
+with open("Resources/creds.txt", 'r') as file:
     KEY = str(file.readlines()[0].rstrip())
 
 #### Functions
@@ -18,31 +18,28 @@ def jpr(o):
 
 # Fetch item IDs from API (don't need to do this every time)
 def importIDs():
-    # Setup parameter packet for get request
+    # Setup parameter packet and send get request to API
     p = {"key": KEY}
-
-    # Send request
     response = rq.get(BASE_URL + "s", params=p)
-    print(f"Item ID fetcher code: {response.status_code}")
 
     # Extract and save products response into file
-    with open("itemIDs.json", 'w') as file:
-        json.dump(response.json(), file)
-    print("Successfully saved item IDs")
+    if response.status_code == 200:
+        with open("itemIDs.json", 'w') as file:
+            json.dump(response.json(), file)
+        print("Successfully saved item IDs")
+    else:
+        print(f"[importIDs] ERROR code {response.status_code}")
 
 # Import item IDs from cached file
 def importIDsFile():
-    # Import products list from cached file
-    with open("itemIDs.json", 'r') as file:
+    with open("Resources\itemIDs.json", 'r') as file:
         raw = json.load(file)
     return raw["productIds"]
 
 # Fetch product price from ID
 def getPrice(id):
-    # Setup parameter packet for get request
+    # Setup parameter packet and send get request to API
     p = {"key": KEY, "productId": id}
-
-    # Send get request
     response = rq.get(BASE_URL, params=p)
 
     if response.status_code == 200:
@@ -50,10 +47,10 @@ def getPrice(id):
         price = float(response.json()["product_info"]["quick_status"]["buyPrice"])
         return price
     else:
-        print(f"[GETPRICE] {item} ERROR:{response.status_code}")
+        print(f"[GETPRICE] {item} ERROR code {response.status_code}")
         return None
 
-# Update ID list?
+# Update ID list (Do this once in a while)
 # importIDs()
 
 ### Runtime
@@ -65,7 +62,7 @@ prices = {}
 prices["time"] = datetime.now().strftime(r"%A %d %b - %H:%M %Z")
 print(f"[TIME] {prices['time']}")
 
-# Get the price of each item
+# Get the price of each item every 0.7s (can only have 120 requests per min)
 i = 0
 for item in itemIDs:
     i += 1
@@ -73,5 +70,6 @@ for item in itemIDs:
     print(f"[getPrice {i}/{len(itemIDs)}] {item} price : {prices[item]}")
     sleep(0.7)
 
-with open("prices.json", 'w') as file:
+# Save item prices in json file
+with open(r"Resources/bazaarPrices.json", 'w') as file:
     json.dump(prices, file)

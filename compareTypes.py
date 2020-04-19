@@ -16,8 +16,13 @@ with open("prices.json", 'r') as file:
 with open("merchantSellValues.json", 'r') as file:
     merchSellValues = json.load(file)
 
-# Define setup
-lvl = 6 # Max level = -1
+### MINION LEVEL SELECTION
+# Set your desired minion level starting from 0
+# So a level 5 minion has lvl=4
+# (Note: you can set max level by setting lvl=-1)
+lvl = -1 # Max level
+
+### Fuel Multiplier Setup
 fuel = 1.25
 
 # Find each minion yield
