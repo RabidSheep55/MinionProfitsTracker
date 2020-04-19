@@ -32,12 +32,12 @@ matplotlib, json, requests, re, numpy, datetime
 ### Install
 To get the scripts for yourself, simply clone or download this repo on your computer. Make sure you store the Resources folder in the same directory in which you are running the scripts!
 
-### API Key
-In order to automatically fetch the bazaar prices you'll need to provide your own Hypixel API key. To do this, simply hop into a lobby, and in-game type the following command:
+### API Key [IMPORTANT]
+In order to automatically fetch the bazaar prices you'll need to provide your own Hypixel API key. To do this, simply hop into an in-game lobby, and type the following command:
 ```
 /api
 ```
-Copy the output key, and save it in a file called `creds.txt` in the **Resources** folder (the fetchPrices.py script will need that file to authenticate your requests to the API).
+Copy the returned key, and save it in a file you should name `creds.txt` in the **Resources** folder (the fetchPrices.py script will need that file to authenticate your requests to the API).
 
 ### Running the Scipts
 Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this will take a while, as each item is fetched independantly), and then run whichever comparison tool you want!
