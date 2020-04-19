@@ -8,16 +8,16 @@ Tired of guessing which minion is the most profitable? Tired of going through ea
  - Easily compare fuel viabilities
  - Display data for every minion at once on really spicy looking graphs:
 
-### Example Graphs
-#### Fuels [adding more soon]
+## Example Graphs
+### Fuels [adding more soon]
 This takes into account the price of the fuel per hour, as you can see, some fuel choices result in a net loss.
 ![Fuel Profits Comparison Graph](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/FuelsLvlMax%20-%20Example.png)
 
-#### Types sold
+### Types sold
 Some items might be worth selling to the merchant, or as their super-enchanted form to maximise profit. (I left the base price here, but it's a bit unfeasible as minions would fill up insanely quickly)
 ![Item type and place Profits comparison graph](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/TypesLvlMax%20-%20Example.png)
 
-#### Minion rank
+### Minion rank
 This one shows the evolution of the minion's rank in terms of profit, as it is leveled up.
 ![Minion Level Profit Rank Visualizer](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/MinionLvlVsRank%20-%20Example.png | width=200)
 
