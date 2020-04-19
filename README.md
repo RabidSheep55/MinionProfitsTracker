@@ -11,15 +11,15 @@ Tired of guessing which minion is the most profitable? Tired of going through ea
 ### Example Graphs
 #### Fuels [adding more soon]
 This takes into account the price of the fuel per hour, as you can see, some fuel choices result in a net loss.
-FuelsLvlMax.png
+![Fuel Profits Comparison Graph](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/FuelsLvlMax%20-%20Example.png)
 
 #### Types sold
 Some items might be worth selling to the merchant, or as their super-enchanted form to maximise profit. (I left the base price here, but it's a bit unfeasible as minions would fill up insanely quickly)
-TypesLvlMax.png
+![Item type and place Profits comparison graph](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/TypesLvlMax%20-%20Example.png)
 
 #### Minion rank
 This one shows the evolution of the minion's rank in terms of profit, as it is leveled up.
-MinionLvlVsRank.png
+![Minion Level Profit Rank Visualizer](https://github.com/RabidSheep55/MinionProfitsTracker/blob/master/Images/MinionLvlVsRank%20-%20Example.png)
 
 ## How to Use
 ### Dependencies
@@ -41,7 +41,10 @@ Copy the returned key, and save it in a file you should name `creds.txt` in the 
 
 ### Running the Scipts
 Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this will take a while, as each item is fetched independantly), and then run whichever comparison tool you want!
+
 When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by changing the `lvl` variable in the respective files, these are clearly identified with comments. You can also change the fuel multiplier in the types comparator script in the same way.
+
+The outputs should be immediately visible in the matplotlib viewer, but they are also saved in the **Raw Figs** folder as images.
 
 
 ## Acknowledgements
