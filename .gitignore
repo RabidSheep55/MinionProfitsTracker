@@ -3,5 +3,9 @@ ID_Dict_Backups
 Dict_Resources
 Test_Figures
 Tests
-compareFuelsJSON.py
 JSON_Graph_Data
+compareTypesJSON.py
+compareFuelsJSON.py
+compareLevelsJSON.py
+
+compareLevels2.py
