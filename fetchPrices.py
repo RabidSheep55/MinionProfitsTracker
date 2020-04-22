@@ -2,13 +2,14 @@ import requests as rq
 import json
 from time import sleep
 from datetime import datetime
+from os.path import join
 
 #### Constants
 # URL to fetch bazaar data from
 BASE_URL = r"https://api.hypixel.net/skyblock/bazaar/product"
 
 # Fetch API key from creds.txt
-with open("Resources/creds.txt", 'r') as file:
+with open(join("Resources","creds.txt"), 'r') as file:
     KEY = str(file.readlines()[0].rstrip())
 
 #### Functions
@@ -32,7 +33,7 @@ def importIDs():
 
 # Import item IDs from cached file
 def importIDsFile():
-    with open("Resources\itemIDs.json", 'r') as file:
+    with open(join("Resources","itemIDs.json"), 'r') as file:
         raw = json.load(file)
     return raw["productIds"]
 
@@ -71,5 +72,5 @@ for item in itemIDs:
     sleep(0.7)
 
 # Save item prices in json file
-with open(r"Resources/bazaarPrices.json", 'w') as file:
+with open(join("Resources","bazaarPrices.json"), 'w') as file:
     json.dump(prices, file)

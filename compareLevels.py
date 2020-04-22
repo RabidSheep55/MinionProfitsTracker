@@ -2,13 +2,14 @@ import json
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
+from os.path import join
 
 # Import Minion/ID data
-with open(r"Resources\minionDataDict.json", 'r') as file:
+with open(join("Resources","minionDataDict.json"), 'r') as file:
     mData = json.load(file)
 
 # Import bazaar prices
-with open(r"Resources\bazaarPrices.json", 'r') as file:
+with open(join("Resources","bazaarPrices.json"), 'r') as file:
     prices = json.load(file)
 
 ### Fuel Multiplier Setup
