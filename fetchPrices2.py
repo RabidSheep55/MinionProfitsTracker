@@ -10,6 +10,7 @@ BASE_URL = r"https://sky.lea.moe/api/bazaar"
 response = rq.get(BASE_URL)
 if response.status_code == 200:
     pricesList = response.json()
+    print("Succesfully fetched Prices from sky.lea.moe endpoint")
 else:
     print(f"Error getting Bazaar Prices | Code: {response.status_code}")
 
