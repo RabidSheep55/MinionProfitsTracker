@@ -1,6 +1,7 @@
 import requests as rq
 import json
 from datetime import datetime
+from os.path import join
 
 # URL to fetch bazaar data from (sky.lea.moe)
 BASE_URL = r"https://sky.lea.moe/api/bazaar"
@@ -21,5 +22,5 @@ for item in pricesList:
 pricesDict["time"] = datetime.now().strftime(r"%A %d %b - %H:%M")
 
 # Save item prices in json file
-with open(r"Resources/bazaarPrices.json", 'w') as file:
+with open(join("Resources","bazaarPrices.json"), 'w') as file:
     json.dump(pricesDict, file, indent=3)
