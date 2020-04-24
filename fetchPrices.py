@@ -73,4 +73,4 @@ for item in itemIDs:
 
 # Save item prices in json file
 with open(join("Resources","bazaarPrices.json"), 'w') as file:
-    json.dump(prices, file)
+    json.dump(prices, file, indent=3)
