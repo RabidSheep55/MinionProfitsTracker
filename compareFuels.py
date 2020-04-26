@@ -29,7 +29,9 @@ for m in mData.keys():
     # Compute Diamond Spreading profits (selling ench diamonds)
     if curr["minionData"]["diamondSpreading"]:
         diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
-
+    else:
+        diaBonus = 0
+        
     # Fish minion only has one type of action, (not break or place)
     if m == "Fish":
         breaksPerH *= 2

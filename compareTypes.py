@@ -38,6 +38,8 @@ for m in mData.keys():
     if curr["minionData"]["diamondSpreading"]:
         diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
         merchDiaBonus = 2 * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
+    else:
+        diaBonus = 0
 
     # Fish minion only has one type of action, (not break or place)
     if m == 'Fish':

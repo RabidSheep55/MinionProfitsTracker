@@ -27,6 +27,8 @@ for lvl in range(0, 11, 1):
         # Compute Diamond Spreading profits (selling ench diamonds to Bazaar)
         if curr["minionData"]["diamondSpreading"]:
             diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
+        else:
+            diaBonus = 0
 
         # Fish minion only has one type of action, (not break or place)
         if m == "Fish":
