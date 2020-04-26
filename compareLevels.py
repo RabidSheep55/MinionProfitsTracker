@@ -24,12 +24,6 @@ for lvl in range(0, 11, 1):
         curr = mData[m] # Current minion
         breaksPerH = (3600 / curr["minionData"]["delays"][lvl]) * fuel * 0.5
 
-        # Compute Diamond Spreading profits (selling ench diamonds to Bazaar)
-        if curr["minionData"]["diamondSpreading"]:
-            diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
-        else:
-            diaBonus = 0
-
         # Fish minion only has one type of action, (not break or place)
         if m == "Fish":
             breaksPerH *= 2
@@ -37,12 +31,25 @@ for lvl in range(0, 11, 1):
         # Compute yields from minons which generate multiple items differently
         # We only consider selling enchanted items at the Bazaar
         if not curr["minionData"]["multiYield"]:
+            # Compute Diamond Spreading profits (selling ench diamonds)
+            if curr["minionData"]["diamondSpreading"]:
+                diaBonus = curr["items"]["0"]["actionYield"] * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
+            else:
+                diaBonus = 0
+
             if "1" in curr["items"]:
                 enchPerH = curr["items"]["0"]["actionYield"] * breaksPerH / curr["items"]["1"]["craft"]["number"]
                 enchPrice = prices.get(curr["items"]["1"]["gameID"], 0)
                 enchProfits[m] = enchPerH * enchPrice + diaBonus
 
         else:
+            # Compute Diamond Spreading profits (selling ench diamonds)
+            if curr["minionData"]["diamondSpreading"]:
+                avgYield = np.average([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
+                diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
+            else:
+                diaBonus = 0
+
             if "1" in curr["items"]:
                 enchProfit = 0
                 for i in range(len(curr["items"]["1"])):

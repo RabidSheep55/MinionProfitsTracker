@@ -2,6 +2,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 from os.path import join
+import sys
 
 # Import Minion/ID data
 with open(join("Resources","minionDataDict.json"), 'r') as file:
@@ -34,19 +35,19 @@ for m in mData.keys():
     curr = mData[m] # Current minion
     breaksPerH = (3600 / curr["minionData"]["delays"][lvl]) * fuel * 0.5
 
-    # Compute Diamond Spreading profits (selling ench diamonds to Bazaar)
-    if curr["minionData"]["diamondSpreading"]:
-        diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
-        merchDiaBonus = 2 * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
-    else:
-        diaBonus = 0
-
     # Fish minion only has one type of action, (not break or place)
     if m == 'Fish':
         breaksPerH *= 2
 
     # Compute yields from minons which generate multiple items differently
     if not mData[m]["minionData"]["multiYield"]:
+        # Compute Diamond Spreading profits
+        if curr["minionData"]["diamondSpreading"]:
+            diaBonus = curr["items"]["0"]["actionYield"] * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
+            merchDiaBonus = curr["items"]["0"]["actionYield"] * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
+        else:
+            diaBonus = 0
+
         basePerH = curr["items"]["0"]["actionYield"] * breaksPerH
         basePrice = prices.get(curr["items"]["0"]["gameID"], 0)
         baseProfits[m] = basePerH * basePrice + diaBonus
@@ -72,6 +73,14 @@ for m in mData.keys():
             superEnchProfits[m] = superEnchPerH * superEnchPrice + diaBonus
 
     else:
+        # Compute Diamond Spreading profits
+        if curr["minionData"]["diamondSpreading"]:
+            avgYield = np.average([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
+            diaBonus = avgYield * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
+            merchDiaBonus = avgYield * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
+        else:
+            diaBonus = 0
+
         baseProfit = 0
         merchProfit = 0
         for i in range(len(curr["items"]["0"])):
