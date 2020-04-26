@@ -2,6 +2,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 from os.path import join
+import sys
 
 # Import Minion/ID data
 with open(join("Resources","minionDataDict.json"), 'r') as file:
@@ -12,10 +13,11 @@ with open(join("Resources","bazaarPrices.json"), 'r') as file:
     prices = json.load(file)
 
 ### MINION LEVEL SELECTION
-# Set your desired minion level starting from 0
+# Set your desired minion level starting from 0 (can now do that via cmd-line arg)
 # So a level 5 minion has lvl=4
 # (Note: you can set max level by setting lvl=-1)
-lvl = -1 # Max level
+lvl = -1 if len(sys.argv) == 1 else int(sys.argv[1]) - 1  # Max level
+print(f"Minion lvl {lvl+1 if lvl>0 else 11}")
 
 #### Compute yields from each minion
 enchProfits = {}
