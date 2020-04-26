@@ -40,7 +40,7 @@ In order to automatically fetch the bazaar prices you'll need to provide your ow
 Copy the returned key, and save it in a file you should name `creds.txt` in the **Resources** folder (the fetchPrices.py script will need that file to authenticate your requests to the API).
 
 ### Running the Scipts
-Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this might take a while if you use the hypixel API), navigate to where you cloned this directory and run:
+Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this might take a while if you use the hypixel API), navigate to where you cloned this directory and run the following command. Note: use `fetchPrices2.py` if you would like to use the sky.lea.moe API.
 ```
 python fetchPrices.py
 ```
