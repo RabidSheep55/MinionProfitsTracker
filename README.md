@@ -40,9 +40,17 @@ In order to automatically fetch the bazaar prices you'll need to provide your ow
 Copy the returned key, and save it in a file you should name `creds.txt` in the **Resources** folder (the fetchPrices.py script will need that file to authenticate your requests to the API).
 
 ### Running the Scipts
-Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this will take a while, as each item is fetched independantly), and then run whichever comparison tool you want!
-
-When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by changing the `lvl` variable in the respective files, these are clearly identified with comments. You can also change the fuel multiplier in the types comparator script in the same way.
+Great! Now that you have the prerequisites setup, all you need to do is fetch the bazaar prices by running the `fetchPrices.py` script first (this might take a while if you use the hypixel API), navigate to where you cloned this directory and run:
+```
+python fetchPrices.py
+```
+Next, you can just run any comparison script you want!
+```
+python compareLevels.py
+python compareFuels.py [minon level]
+python compareTypes.py [minion level]
+```
+When running the Fuel and Type comparison tools, if you want to change the minion level, you can do so by adding an extra commandline argument when running the script. If no extra argument is input, the graphs will be generated for a max level minion. You can also change the fuel multiplier in the types comparator script by changing the fuel multiplyer variable.
 
 ### Outputs
 The outputs should be immediately visible in the matplotlib viewer, but they are also saved in the **Raw Figs** folder as images.
