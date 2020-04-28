@@ -45,7 +45,7 @@ for lvl in range(0, 11, 1):
         else:
             # Compute Diamond Spreading profits (selling ench diamonds)
             if curr["minionData"]["diamondSpreading"]:
-                avgYield = np.average([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
+                avgYield = sum([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
                 diaBonus = 2 * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
             else:
                 diaBonus = 0

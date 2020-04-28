@@ -75,7 +75,7 @@ for m in mData.keys():
     else:
         # Compute Diamond Spreading profits
         if curr["minionData"]["diamondSpreading"]:
-            avgYield = np.average([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
+            avgYield = sum([curr["items"]["0"][i]["actionYield"] for i in range(len(curr["items"]["0"]))])
             diaBonus = avgYield * breaksPerH * 0.1 * prices["ENCHANTED_DIAMOND"] / 160
             merchDiaBonus = avgYield * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
         else:
