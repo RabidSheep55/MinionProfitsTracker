@@ -45,10 +45,10 @@ def getPrice(id):
 
     if response.status_code == 200:
         # Extract price from quick status response
-        price = float(response.json()["product_info"]["quick_status"]["buyPrice"])
+        price = float(response.json()["product_info"]["quick_status"]["sellPrice"])
         return price
     else:
-        print(f"[GETPRICE] {item} ERROR code {response.status_code}")
+        print(f"[GETPRICE] {id} ERROR code {response.status_code}")
         return None
 
 # Update ID list (Do this once in a while)
