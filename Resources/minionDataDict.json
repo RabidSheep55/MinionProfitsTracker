@@ -485,7 +485,7 @@
           "number": 160
         }
       }],
-      "3": [{
+      "2": [{
         "name": "Enchanted Hay Bale",
         "gameID": "ENCHANTED_HAY_BLOCK",
         "craft": {
@@ -641,14 +641,14 @@
     "items": {
       "0": {
         "name": "Cactus Green",
-        "gameID": null,
+        "gameID": "INK_SACK:2",
         "actionYield": 1.0
       },
       "1": {
         "name": "Enchanted Cactus Green",
         "gameID": "ENCHANTED_CACTUS_GREEN",
         "craft": {
-          "usedItemID": null,
+          "usedItemID": "INK_SACK:2",
           "number": 160
         }
       },
@@ -656,7 +656,7 @@
         "name": "Enchanted Cactus",
         "gameID": "ENCHANTED_CACTUS",
         "craft": {
-          "usedItemID": null,
+          "usedItemID": "INK_SACK:2",
           "number": 25600
         }
       }
@@ -1075,7 +1075,7 @@
           "number": 160
         }
       },
-      "1": {
+      "2": {
         "name": "Enchanted Blaze Rod",
         "gameID": "ENCHANTED_BLAZE_ROD",
         "craft": {
@@ -1253,7 +1253,7 @@
     "items": {
       "0": [{
         "name": "Egg",
-        "gameID": null,
+        "gameID": "EGG",
         "actionYield": 1.0
       }, {
         "name": "Raw Chicken",
@@ -1268,7 +1268,7 @@
         "name": "Enchanted Egg",
         "gameID": "ENCHANTED_EGG",
         "craft": {
-          "usedItemID": null,
+          "usedItemID": "EGG",
           "number": 144
         }
       }, {
@@ -1309,7 +1309,7 @@
         "actionYield": 1.0
       }, {
         "name": "Wool",
-        "gameID": null,
+        "gameID": "WOOL",
         "actionYield": 1.0
       }],
       "1": [{
@@ -1321,9 +1321,9 @@
         }
       }, {
         "name": "Enchanted Wool",
-        "gameID": null,
+        "gameID": "ENCHANTED_WOOL",
         "craft": {
-          "usedItemID": null,
+          "usedItemID": "WOOL",
           "number": 160
         }
       }],

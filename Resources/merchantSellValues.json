@@ -31,6 +31,10 @@
     "name": "Snow Ball",
     "merchSellValue": 1.0
   },
+  "WOOL": {
+    "name": "White Wool",
+    "merchSellValue": 6.0
+  },
   "COAL": {
     "name": "Coal",
     "merchSellValue": 2.0
@@ -75,6 +79,10 @@
     "name": "Seeds",
     "merchSellValue": 0.5
   },
+  "EGG": {
+    "name": "Egg",
+    "merchSellValue": 3.0
+  },
   "MELON": {
     "name": "Melon",
     "merchSellValue": 0.5
@@ -98,6 +106,10 @@
   "BROWN_MUSHROOM": {
     "name": "Brown Mushroom",
     "merchSellValue": 4.0
+  },
+  "INK_SACK:2": {
+    "name": "Cactus Green",
+    "merchSellValue": 1.0
   },
   "INK_SACK:3": {
     "name": "Cocoa Beans",
