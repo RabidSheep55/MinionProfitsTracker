@@ -840,7 +840,7 @@
         "name": "Enchanted Wet Sponge",
         "gameID": "ENCHANTED_WET_SPONGE",
         "craft": {
-          "usedItemID": "RAW_FISH:2",
+          "usedItemID": "SPONGE",
           "number": 1600
         }
       }]
@@ -892,7 +892,7 @@
           "number": 160
         }
       }, {
-        "name": "Enchanted DIAMOND",
+        "name": "Enchanted Diamond",
         "gameID": "ENCHANTED_DIAMOND",
         "craft": {
           "usedItemID": "DIAMOND",
@@ -1290,7 +1290,7 @@
         "name": "Super Enchanted Egg",
         "gameID": "SUPER_EGG",
         "craft": {
-          "usedItemID": "RAW_CHICKEN",
+          "usedItemID": "EGG",
           "number": 20736
         }
       }]
