@@ -47,6 +47,7 @@ for m in mData.keys():
             merchDiaBonus = curr["items"]["0"]["actionYield"] * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
         else:
             diaBonus = 0
+            merchDiaBonus = 0
 
         basePerH = curr["items"]["0"]["actionYield"] * breaksPerH
         basePrice = prices.get(curr["items"]["0"]["gameID"], 0)
@@ -80,6 +81,7 @@ for m in mData.keys():
             merchDiaBonus = avgYield * breaksPerH * 0.1 * merchSellValues["DIAMOND"]["merchSellValue"]
         else:
             diaBonus = 0
+            merchDiaBonus = 0
 
         baseProfit = 0
         merchProfit = 0
