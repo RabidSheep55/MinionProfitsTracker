@@ -78,7 +78,7 @@ for lvl in range(0, 11, 1):
         ranks[newKeys[i]] += [i+1]
 
 ### Plot results
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(constrained_layout=True)
 
 # Set custom rainbow cycler
 rainbowCycle = mpl.cycler(color=['C12F1D', 'D94E1F', 'F16C20', 'EF8B2C', 'ECAA38', 'ECAA38', 'EBC844', '89B37D', '1395BA', '117899', '0F5B78', '0D3C55'])
@@ -87,17 +87,15 @@ ax.set_prop_cycle(rainbowCycle)
 lvls = list(range(1, 12))
 initOrder = list(ranks.keys())
 for m in initOrder:
-    ax.plot(lvls, ranks[m], lw=2)
-    ax.scatter(lvls, ranks[m])
+    ax.plot(lvls, ranks[m], lw=2, clip_on=False)
+    ax.scatter(lvls, ranks[m], clip_on=False)
 
 # Graph settings
 plt.yticks(list(range(1, len(ranks.keys())+1)), initOrder)
 plt.xticks(lvls)
-plt.ylim(bottom=0)
-plt.xlim(left=0.9, right=11.5)
-plt.tick_params(axis="both", bottom=False, left=False)
+plt.tick_params(axis="both", bottom=False, left=False) #, labelbottom=False, labelleft=False)
 plt.xlabel("Minion Level")
-plt.title(f"Minion Rank based on profit/hour (top is best) | Lava Bucket \n Bazaar prices updated on {prices['time']} CEST", pad=-10, fontsize=13)
+plt.title(f"Minion Rank based on profit/hour (top is best) | Lava Bucket \n Bazaar prices updated on {prices['time']} CEST", fontsize=13)
 
 # mplstyle setting ported into code (I use custom .mplsytle files to make this easier usually)
 ax.spines['right'].set_visible(False)
@@ -110,7 +108,6 @@ bg = "#ecf0f1"
 fig.patch.set_facecolor(bg)
 ax.set_facecolor(bg)
 
-plt.tight_layout()
-fig.set_size_inches(8, 12)
+fig.set_size_inches(7, 11)
 fig.savefig('Raw Figs\MinionLvlVsRank.png', dpi=300, facecolor=bg, edgecolor=bg)
 plt.show()
