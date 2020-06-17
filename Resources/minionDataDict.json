@@ -60,7 +60,7 @@
         "gameID": "ENCHANTED_GLOWSTONE_DUST",
         "craft": {
           "usedItemID": "GLOWSTONE_DUST",
-          "number": 192
+          "number": 160
         }
       },
       "2": {
@@ -68,7 +68,7 @@
         "gameID": "ENCHANTED_GLOWSTONE",
         "craft": {
           "usedItemID": "GLOWSTONE_DUST",
-          "number": 26864
+          "number": 30720
         }
       }
     }
